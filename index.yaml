@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   ubos-nodered-chart:
   - apiVersion: v2
-    created: "2024-03-05T15:05:33.8873345+02:00"
+    created: "2024-03-05T16:30:21.6148095+02:00"
     description: Helm chart for Node-Red
-    digest: d01a0e4596746144d9b2dad225ecada86a251feb47d12aef9df47868ca72f95a
+    digest: 787198fc0fc505939dbb2c9bffee26c9f7bd18bd0124e05afa22c2c4c8dc5252
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -13,4 +13,17 @@ entries:
     urls:
     - ubos-nodered-chart-0.0.2.tgz
     version: 0.0.2
-generated: "2024-03-05T15:05:33.8857309+02:00"
+  ubos-ui-chart:
+  - apiVersion: v2
+    created: "2024-03-05T16:30:21.6164096+02:00"
+    description: Helm chart for Node-Red
+    digest: 66f428df268925458129162ac2133d44f317ede550ec86a0fdd3dd2d368bfc07
+    icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: ubos-ui-chart
+    urls:
+    - ubos-ui-chart-0.0.2.tgz
+    version: 0.0.2
+generated: "2024-03-05T16:30:21.6137073+02:00"
