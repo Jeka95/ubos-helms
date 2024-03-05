@@ -15,7 +15,7 @@ metadata:
     {{- include "helpers.app.genericAnnotations" $ | indent 4 }}
     {{- with .annotations }}{{- include "helpers.tplvalues.render" (dict "value" . "context" $) | nindent 4 }}{{- end }}
 spec:
-  replicas: {{ replicaCount | default 1 }}
+  replicas: {{ .replicaCount | default 1 }}
   {{- with .strategy }}
   strategy: {{- include "helpers.tplvalues.render" (dict "value" . "context" $) | nindent 4 }}
   {{- end }}
