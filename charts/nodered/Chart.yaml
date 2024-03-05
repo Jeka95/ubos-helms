@@ -1,6 +1,6 @@
 apiVersion: v2
-description: Helm chart for Node-Red
-name: ubos-nodered-chart
+description: Back-end applications using  visual blocks.
+name: Node Red
 icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
 version: 0.0.2
 maintainers:

@@ -1,29 +1,95 @@
 apiVersion: v1
 entries:
-  ubos-nodered-chart:
+  Chroma DB:
   - apiVersion: v2
-    created: "2024-03-05T16:30:21.6148095+02:00"
-    description: Helm chart for Node-Red
-    digest: 787198fc0fc505939dbb2c9bffee26c9f7bd18bd0124e05afa22c2c4c8dc5252
+    appVersion: 0.4.14
+    created: "2024-03-05T16:57:48.6352995+02:00"
+    description: Open-source vector storage system.
+    digest: aa216437bf1581859553e523cc7411f06ca5dfb0674c5fa5b55ab29894bd97de
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
     maintainers:
     - email: ubos@ubos.tech
       name: UBOS
-    name: ubos-nodered-chart
+    name: Chroma DB
     urls:
-    - ubos-nodered-chart-0.0.2.tgz
-    version: 0.0.2
-  ubos-ui-chart:
+    - Chroma DB-0.1.19.tgz
+    version: 0.1.19
+  Mongo DB:
   - apiVersion: v2
-    created: "2024-03-05T16:30:21.6164096+02:00"
-    description: Helm chart for Node-Red
-    digest: 66f428df268925458129162ac2133d44f317ede550ec86a0fdd3dd2d368bfc07
+    created: "2024-03-05T16:57:48.635848+02:00"
+    description: Non-relational document database.
+    digest: eb0435b313f21eca5f78e0b3cf13af96e1f9d2ab54d19a7addbca5250d3a6878
+    icon: https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: Mongo DB
+    urls:
+    - Mongo DB-0.0.2.tgz
+    version: 0.0.2
+  MySQL:
+  - apiVersion: v2
+    created: "2024-03-05T16:57:48.6368913+02:00"
+    description: Relational database management system.
+    digest: b15cbcaa8e06681fd99333cfa1809803440c7c2b7b55bb69964ca3adf25a2add
+    icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: MySQL
+    urls:
+    - MySQL-0.0.2.tgz
+    version: 0.0.2
+  Node Red:
+  - apiVersion: v2
+    created: "2024-03-05T16:57:48.6374391+02:00"
+    description: Back-end applications using  visual blocks.
+    digest: 1a4cee8c3f3fdd7ec70ac3b7905e93bbf03e9f50c703e685484484d13f4d3db9
+    icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: Node Red
+    urls:
+    - Node Red-0.0.2.tgz
+    version: 0.0.2
+  PostgreSQL:
+  - apiVersion: v2
+    created: "2024-03-05T16:57:48.640788+02:00"
+    description: Object-relational database system.
+    digest: b9fe373e288622773a0579f622730fa7e0f12c1a377469d5dcf2a7eb51aee046
+    icon: https://www.postgresql.org/media/img/about/press/elephant.png
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: PostgreSQL
+    urls:
+    - PostgreSQL-0.0.2.tgz
+    version: 0.0.2
+  Theia:
+  - apiVersion: v2
+    created: "2024-03-05T16:57:48.6417642+02:00"
+    description: Cloud  IDEs
+    digest: ec2528646f2a123d0e207ced27849f64f719bdea31e30bd115a3da397a54e731
+    icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: Theia
+    urls:
+    - Theia-0.0.2.tgz
+    version: 0.0.2
+  ubos-ui:
+  - apiVersion: v2
+    created: "2024-03-05T16:57:48.6427707+02:00"
+    description: Helm chart for ubos UI - web user interface builder.
+    digest: 75c9167ebdb04822f8a10e9ee80087aa3e5135f7e2b259cba651abede09779fe
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
     maintainers:
     - email: ubos@ubos.tech
       name: UBOS
-    name: ubos-ui-chart
+    name: ubos-ui
     urls:
-    - ubos-ui-chart-0.0.2.tgz
+    - ubos-ui-0.0.2.tgz
     version: 0.0.2
-generated: "2024-03-05T16:30:21.6137073+02:00"
+generated: "2024-03-05T16:57:48.6341826+02:00"

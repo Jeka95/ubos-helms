@@ -1,0 +1,8 @@
+apiVersion: v2
+description: Cloud  IDEs
+name: Theia
+icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
+version: 0.0.2
+maintainers:
+- name: UBOS
+  email: ubos@ubos.tech

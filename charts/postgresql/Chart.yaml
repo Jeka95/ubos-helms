@@ -1,0 +1,8 @@
+apiVersion: v2
+description: Object-relational database system.
+name: PostgreSQL
+icon: https://www.postgresql.org/media/img/about/press/elephant.png
+version: 0.0.2
+maintainers:
+- name: UBOS
+  email: ubos@ubos.tech
