@@ -1,7 +1,7 @@
 apiVersion: v2
 name: Chroma DB
 description: Open-source vector storage system.
-icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
+icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
 maintainers:
   - name: UBOS
     email: ubos@ubos.tech

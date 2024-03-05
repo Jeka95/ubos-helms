@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Non-relational document database.
 name: Mongo DB
-icon: https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress
+icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
 version: 0.0.2
 maintainers:
 - name: UBOS

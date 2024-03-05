@@ -1,6 +1,6 @@
 apiVersion: v2
-description: Helm chart for ubos UI - web user interface builder.
-name: ubos-ui
+description: UBOS UI - web user interface builder.
+name: UI Editor
 icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
 version: 0.0.2
 maintainers:
