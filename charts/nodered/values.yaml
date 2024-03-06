@@ -73,7 +73,7 @@ services:
     ports:
       - name: http
         protocol: TCP
-        port: nodered-port
+        port: 1880
     extraSelectorLabels:
       app: nodered-name
 ingresses:
