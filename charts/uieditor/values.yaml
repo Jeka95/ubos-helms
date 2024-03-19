@@ -125,7 +125,7 @@
 #     extraTls:
 #       - hosts:
 #           - ubos-service-url
-#         secretName: tls-secret
+#         secretName: ubos-service-tls-secret
 # secrets: {}
 # configMaps:
 #   nginx-ubos-service-name:
