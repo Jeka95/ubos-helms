@@ -72,7 +72,7 @@
 #     ports:
 #       - name: http
 #         protocol: TCP
-#         port: ubos-service-port
+#         port: 1880
 #     extraSelectorLabels:
 #       app: ubos-service-name
 # ingresses:
