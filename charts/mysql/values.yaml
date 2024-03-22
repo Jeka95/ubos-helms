@@ -1,6 +1,6 @@
 generic:
-  labels:
-    link: ''
+  labels: 
+     link: ubos-service-service_label
   annotations: {}
   extraSelectorLabels: {}
   podLabels: {}
@@ -22,9 +22,10 @@ secretEnvsString: ''
 imagePullSecrets: {}
 defaultImage: nodered/node-red
 defaultImageTag: latest
-defaultImagePullPolicy: Always
+defaultImagePullPolicy: IfNotPresent
 deployments:
-  nodered-name:
+  mysql-7435:
+    name: ubos-service-service_label
     labels: {}
     podLabels: {}
     replicaCount: 1
@@ -35,21 +36,26 @@ deployments:
     extraImagePullSecrets:
       - name: regcred
     extraSelectorLabels:
-      app: nodered-name
+      app: ubos-service-service_label
     serviceAccountName: default
     containers:
-      - name: nodered-name
-        image: betedo/ubos-nodered
-        imageTag: nodered-tag
+      - name: ubos-service-service_label
+        image: mysql
         imagePullPolicy: Always
-        env: []
+        env:
+          - name: MYSQL_DATABASE
+            value: ubos-service-name
+          - name: MYSQL_USER
+            value: ubos-service-user-name
+          - name: MYSQL_PASSWORD
+            value: ubos-service-password
+          - name: MYSQL_ROOT_PASSWORD
+            value: ubos-service-password
         envsFromSecret: {}
         readinessProbe:
           failureThreshold: 20
-          httpGet:
-            path: /
-            port: 1880
-            scheme: HTTP
+          tcpSocket:
+            port: 3306
           initialDelaySeconds: 30
           periodSeconds: 20
           successThreshold: 1
@@ -58,50 +64,30 @@ deployments:
         envsFromConfigmap: {}
         envConfigmaps: []
         volumeMounts:
-          - name: nodered-datanodered-name
-            mountPath: /data
+          - name: ubos-service-service_label
+            mountPath: /data/db
         resources: {}
     volumes:
       - type: pvc
-        name: nodered-datanodered-name
+        name: ubos-service-service_label
         items:
-          - key: nodered-datanodered-name
-            path: nodered-datanodered-name
+          - key: ubos-service-service_label
+            path: ubos-service-service_label
 services:
-  nodered-name:
-    clusterIP: None
+  mysql-7435:
+    name: ubos-service-service_label
     ports:
-      - name: http
+      - port: 3306
+        targetPort: 3306
         protocol: TCP
-        port: nodered-port
     extraSelectorLabels:
-      app: nodered-name
-ingresses:
-  nodered-url:
-    annotations:
-      nginx.ingress.kubernetes.io/rewrite-target: /
-      nginx.ingress.kubernetes.io/proxy-read-timeout: 3600s
-      nginx.ingress.kubernetes.io/proxy-send-timeout: 3600s
-      nginx.ingress.kubernetes.io/proxy-connect-timeout: 3600s
-      nginx.ingress.kubernetes.io/proxy-body-size: 120m
-      nginx.ingress.kubernetes.io/client-body-buffer-size: 120m
-      node-red.ingress.kubernetes.io/proxy-body-size: 128m
-    ingressClassName: nginx
-    name: nodered-name
-    hosts:
-      - paths:
-          - pathType: Prefix
-            path: /
-            serviceName: nodered-name
-            servicePort: http
-    extraTls:
-      - hosts:
-          - nodered-url
-        secretName: tls-secret
+      app: ubos-service-service_label
+    type: ClusterIP
+ingresses: {}
 secrets: {}
 configMaps: {}
 pvcs:
-  nodered-datanodered-name:
+  ubos-service-service_label:
     accessModes:
       - ReadWriteOnce
     size: 5Gi
