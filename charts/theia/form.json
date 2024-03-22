@@ -1,6 +1,6 @@
 {
-   "name": "theia-",
+   "name": "theia-g4",
    "user-name": "admin",
-   "password": "",
-   "url": ""
+   "password": "g-password",
+   "url": "ingress-url"
 }

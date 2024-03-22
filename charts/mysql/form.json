@@ -1,5 +1,6 @@
 {
-   "name": "mysql-",
+   "name": "mysql-g4",
    "user-name": "admin",
-   "password": ""
+   "password": "g-password",
+   "url": "service-url"
 }

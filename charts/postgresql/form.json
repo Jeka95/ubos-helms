@@ -1,5 +1,6 @@
 {
-   "name": "postgresql-",
+   "name": "postgresql-g4",
    "user-name": "admin",
-   "password": ""
+   "password": "g-password",
+   "url": "service-url"
 }

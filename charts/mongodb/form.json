@@ -1,5 +1,6 @@
 {
-   "name": "mongodb-",
+   "name": "mongodb-g4",
    "user-name": "admin",
-   "password": ""
+   "password": "g-password",
+   "url": "service-url"
 }
