@@ -3,6 +3,8 @@ description: Non-relational document database.
 name: Mongo DB
 icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
 version: 0.0.2
+annotations: 
+  repository: https://jeka95.github.io/ubos-helms/
 maintainers:
 - name: UBOS
   email: ubos@ubos.tech

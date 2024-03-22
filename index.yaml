@@ -1,11 +1,13 @@
 apiVersion: v1
 entries:
   Chroma DB:
-  - apiVersion: v2
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-03-22T02:10:41.635317+02:00"
+    created: "2024-03-22T02:36:34.0962469+02:00"
     description: Open-source vector storage system.
-    digest: 9b35ea0a1e19aa2697217b8a887a7ce77c4dfa58c699dd8290bfaa1a219bbc08
+    digest: 0385233e2596273fb20c356158d078f84c1309751f737d14dd7f69706e157930
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
     maintainers:
     - email: ubos@ubos.tech
@@ -15,10 +17,12 @@ entries:
     - Chroma DB-0.1.19.tgz
     version: 0.1.19
   Mongo DB:
-  - apiVersion: v2
-    created: "2024-03-22T02:10:41.6363808+02:00"
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-22T02:36:34.0973618+02:00"
     description: Non-relational document database.
-    digest: a45320122b863f43ad0f9f636029e65552e7e870293503b8b41c9e3a32307ce7
+    digest: 14ce9a62abe2bbe9fa44b603ea9aa34621addb2159cccd61d6e98a277e26dd6a
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
     maintainers:
     - email: ubos@ubos.tech
@@ -28,10 +32,12 @@ entries:
     - Mongo DB-0.0.2.tgz
     version: 0.0.2
   MySQL:
-  - apiVersion: v2
-    created: "2024-03-22T02:10:41.6380043+02:00"
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-22T02:36:34.0978901+02:00"
     description: Relational database management system.
-    digest: dffd56e916f8753e671476d3e0bd3c3b095129d50fe1c5027ae74bc217b3bc94
+    digest: 16ab364b550f00685b06a16dbbf860fb7991c9bb47c7252ac6b5c10ee42cdbd0
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
     maintainers:
     - email: ubos@ubos.tech
@@ -41,10 +47,12 @@ entries:
     - MySQL-0.0.2.tgz
     version: 0.0.2
   Node Red:
-  - apiVersion: v2
-    created: "2024-03-22T02:10:41.6380043+02:00"
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-22T02:36:34.0984349+02:00"
     description: Back-end applications using  visual blocks.
-    digest: 9a6392a722e2c204b2e2b2be2d804934bb7dcd8d81a89c7618d2153f8212be9e
+    digest: 1a3ac3ba9742d54006a22ef1503daa7531cdd7fc82e45981f5db6436e98e9b4b
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -54,10 +62,12 @@ entries:
     - Node Red-0.0.2.tgz
     version: 0.0.2
   PostgreSQL:
-  - apiVersion: v2
-    created: "2024-03-22T02:10:41.6389903+02:00"
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-22T02:36:34.101153+02:00"
     description: Object-relational database system.
-    digest: 294d591e8fb7c4512a33c28d971ef989a733d259c2592f2583c13a0b080ce09b
+    digest: 650438ea77449ea79fd75e1da9bd8094937b00e6dadb3077eb7a21f18ced6411
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
     maintainers:
     - email: ubos@ubos.tech
@@ -67,10 +77,12 @@ entries:
     - PostgreSQL-0.0.2.tgz
     version: 0.0.2
   Theia:
-  - apiVersion: v2
-    created: "2024-03-22T02:10:41.639995+02:00"
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-22T02:36:34.1016976+02:00"
     description: Cloud  IDEs
-    digest: 94c0fdacfa08185049dec737f24f0a87dbfdf0796985787a864c42a8e72c836f
+    digest: cd29d0bbc6291dc018c0187ad2421e7fa67ab6e8542f66a781dfc6bef7580e58
     icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -80,10 +92,12 @@ entries:
     - Theia-0.0.2.tgz
     version: 0.0.2
   UI Editor:
-  - apiVersion: v2
-    created: "2024-03-22T02:10:41.6405802+02:00"
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-22T02:36:34.1022099+02:00"
     description: UBOS UI - web user interface builder.
-    digest: 751f2db6842c4befbaf1a55d2d5e9808b04d18d5235ab02e5afcf615ff9c59dd
+    digest: cdc172c5233ffbed34d43a7dc51b7148003378a0d3ee214d2cbf65ec56b9bcc8
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -92,4 +106,4 @@ entries:
     urls:
     - UI Editor-0.0.2.tgz
     version: 0.0.2
-generated: "2024-03-22T02:10:41.6342401+02:00"
+generated: "2024-03-22T02:36:34.0950915+02:00"

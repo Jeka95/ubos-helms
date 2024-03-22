@@ -2,6 +2,8 @@ apiVersion: v2
 name: Chroma DB
 description: Open-source vector storage system.
 icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
+annotations: 
+  repository: https://jeka95.github.io/ubos-helms/
 maintainers:
   - name: UBOS
     email: ubos@ubos.tech
