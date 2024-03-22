@@ -3,9 +3,9 @@ entries:
   Chroma DB:
   - apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-03-19T16:12:11.2934387+02:00"
+    created: "2024-03-22T02:10:41.635317+02:00"
     description: Open-source vector storage system.
-    digest: 587c622bb72656053e792b4b7d3d8c5c215486771e3c5db4cd9749f729738c8a
+    digest: 9b35ea0a1e19aa2697217b8a887a7ce77c4dfa58c699dd8290bfaa1a219bbc08
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
     maintainers:
     - email: ubos@ubos.tech
@@ -16,9 +16,9 @@ entries:
     version: 0.1.19
   Mongo DB:
   - apiVersion: v2
-    created: "2024-03-19T16:12:11.2939828+02:00"
+    created: "2024-03-22T02:10:41.6363808+02:00"
     description: Non-relational document database.
-    digest: 78d1f9d101d9a6302276b4a49f833a52b4f2527e5e39e7c846e0fb2b21cddbe9
+    digest: a45320122b863f43ad0f9f636029e65552e7e870293503b8b41c9e3a32307ce7
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
     maintainers:
     - email: ubos@ubos.tech
@@ -29,9 +29,9 @@ entries:
     version: 0.0.2
   MySQL:
   - apiVersion: v2
-    created: "2024-03-19T16:12:11.2950564+02:00"
+    created: "2024-03-22T02:10:41.6380043+02:00"
     description: Relational database management system.
-    digest: 67cec8357cdc90bf6340eac1ef2b2fb706f6beae8879b60d2a8bf866019b5a0a
+    digest: dffd56e916f8753e671476d3e0bd3c3b095129d50fe1c5027ae74bc217b3bc94
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
     maintainers:
     - email: ubos@ubos.tech
@@ -42,9 +42,9 @@ entries:
     version: 0.0.2
   Node Red:
   - apiVersion: v2
-    created: "2024-03-19T16:12:11.2950564+02:00"
+    created: "2024-03-22T02:10:41.6380043+02:00"
     description: Back-end applications using  visual blocks.
-    digest: 2d0a85c64212e94e643f6347f26f1cd8a5e85b68bd996c54bcbde120b3a9c0b2
+    digest: 9a6392a722e2c204b2e2b2be2d804934bb7dcd8d81a89c7618d2153f8212be9e
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -55,9 +55,9 @@ entries:
     version: 0.0.2
   PostgreSQL:
   - apiVersion: v2
-    created: "2024-03-19T16:12:11.2982669+02:00"
+    created: "2024-03-22T02:10:41.6389903+02:00"
     description: Object-relational database system.
-    digest: 055b7036b73117a6d619c2ef5cd88dd46759ea87aee3baf7f49f650db76cdc04
+    digest: 294d591e8fb7c4512a33c28d971ef989a733d259c2592f2583c13a0b080ce09b
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
     maintainers:
     - email: ubos@ubos.tech
@@ -68,9 +68,9 @@ entries:
     version: 0.0.2
   Theia:
   - apiVersion: v2
-    created: "2024-03-19T16:12:11.2988742+02:00"
+    created: "2024-03-22T02:10:41.639995+02:00"
     description: Cloud  IDEs
-    digest: 192ec75778fdd64a5381e721c07c9b9cabf2966d7da1ad667bbe6c528eb81c3f
+    digest: 94c0fdacfa08185049dec737f24f0a87dbfdf0796985787a864c42a8e72c836f
     icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -81,9 +81,9 @@ entries:
     version: 0.0.2
   UI Editor:
   - apiVersion: v2
-    created: "2024-03-19T16:12:11.2993808+02:00"
+    created: "2024-03-22T02:10:41.6405802+02:00"
     description: UBOS UI - web user interface builder.
-    digest: 0bcc54261eae64fb53003d8fd742756236cf849ce46034a3e14dbea790e99372
+    digest: 751f2db6842c4befbaf1a55d2d5e9808b04d18d5235ab02e5afcf615ff9c59dd
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -92,4 +92,4 @@ entries:
     urls:
     - UI Editor-0.0.2.tgz
     version: 0.0.2
-generated: "2024-03-19T16:12:11.2923477+02:00"
+generated: "2024-03-22T02:10:41.6342401+02:00"
