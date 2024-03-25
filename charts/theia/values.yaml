@@ -29,7 +29,7 @@
 #     podLabels: {}
 #     securityContext:
 #       fsGroup: 1000
-#     replicaCount: 1
+#     replicaCount: "1"
 #     nodeSelector: {}
 #     tolerations: []
 #     strategy:

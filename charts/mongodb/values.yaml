@@ -28,7 +28,7 @@
 #     name: ubos-service-service_label
 #     labels: {}
 #     podLabels: {}
-#     replicaCount: 1
+#     replicaCount: "1"
 #     nodeSelector: {}
 #     tolerations: []
 #     strategy:
