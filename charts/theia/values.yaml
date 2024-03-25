@@ -106,7 +106,7 @@
 #   secret-ubos-service-name:
 #     type: Opaque
 #     data:
-#       auth: ubos-service-user:ubos-service-password
+#       auth: ubos-service-user-name:ubos-service-password
 # configMaps: {}
 # pvcs:
 #   theia-dataubos-service-name:
