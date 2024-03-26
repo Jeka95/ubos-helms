@@ -43,7 +43,7 @@
 #         imagePullPolicy: Always
         # env: 
         #   - name: KEYCLOAK_CLIENT_ID
-        #     value: env.get("KEYCLOAK_CLIENT_ID")
+        #     value: "{{ env.get("KEYCLOAK_CLIENT_ID") }}"
         #   - name: KEYCLOAK_CLIENT_SECRET
         #     value: env.get("KEYCLOAK_CLIENT_SECRET")
         #   - name: KEYCLOAK_HOST
