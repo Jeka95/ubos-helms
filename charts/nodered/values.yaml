@@ -41,7 +41,23 @@
 #       - name: ubos-service-name
 #         image: betedo/ubos-nodered
 #         imagePullPolicy: Always
-#         env: []
+        # env: 
+        #   - name: KEYCLOAK_CLIENT_ID
+        #     value: env.get("KEYCLOAK_CLIENT_ID")
+        #   - name: KEYCLOAK_CLIENT_SECRET
+        #     value: env.get("KEYCLOAK_CLIENT_SECRET")
+        #   - name: KEYCLOAK_HOST
+        #     value: env.get("KEYCLOAK_HOST")
+        #   - name: KEYCLOAK_REALM
+        #     value: env.get("KEYCLOAK_REALM")
+        #   - name: KC_LEGACY
+        #     value: env.get("KC_LEGACY")
+        #   - name: NODE_RED_ENABLE_PROJECTS
+        #     value: 'true'
+        #   - name: NODE_TLS_REJECT_UNAUTHORIZED
+        #     value: '0'
+        #   - name: MAIN_URL
+        #     value: msg.main_host
 #         envsFromSecret: {}
 #         readinessProbe:
 #           failureThreshold: 20
