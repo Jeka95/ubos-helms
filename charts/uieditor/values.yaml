@@ -62,7 +62,7 @@
         #   - name: APP_NAME
         #     value: ubos-service-APP_NAME
         #   - name: ORG_ID
-        #     value: u ubos-service-ORG_ID
+        #     value: ubos-service-ORG_ID
         #   - name: DATASOURCE_ID
         #     value: ubos-service-DATASOURCE_ID
         #   - name: MAIN_HOST
@@ -117,7 +117,7 @@
         #   - name: APP_NAME
         #     value: ubos-service-APP_NAME
         #   - name: ORG_ID
-        #     value: u ubos-service-ORG_ID
+        #     value: ubos-service-ORG_ID
         #   - name: DATASOURCE_ID
         #     value: ubos-service-DATASOURCE_ID
         #   - name: MAIN_HOST
