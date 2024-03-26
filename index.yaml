@@ -5,7 +5,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-03-26T13:47:42.3641332+02:00"
+    created: "2024-03-26T13:48:19.8772018+02:00"
     description: Open-source vector storage system.
     digest: 2717f781fb732dbc173b1bed89797b6eef8859ae6751659c02e371ee188189cd
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -20,7 +20,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-03-26T13:47:42.3652243+02:00"
+    created: "2024-03-26T13:48:19.877746+02:00"
     description: Non-relational document database.
     digest: 74994854a91286751faa0da8ac5f77ae7bbb107cdd97e76a0e5f0d3561050f50
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -35,7 +35,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-03-26T13:47:42.3663375+02:00"
+    created: "2024-03-26T13:48:19.8782908+02:00"
     description: Relational database management system.
     digest: acd53cd1d936730947d3018a1c53a432231b99f8f9d21f0dad6db83f5152593d
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -50,7 +50,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-03-26T13:47:42.3668916+02:00"
+    created: "2024-03-26T13:48:19.8793651+02:00"
     description: Back-end applications using  visual blocks.
     digest: 18177e137dc9d2d0933f8d61e5ce6cbaeb494314cbe8b966cd0417581a6c6ca7
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -65,7 +65,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-03-26T13:47:42.367438+02:00"
+    created: "2024-03-26T13:48:19.880433+02:00"
     description: Object-relational database system.
     digest: 723f73b3c89260ee75eea55a9a5bac15beed9f24e6b7d669fcac7293e598ad9a
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -80,7 +80,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-03-26T13:47:42.3679817+02:00"
+    created: "2024-03-26T13:48:19.8810005+02:00"
     description: Cloud  IDEs
     digest: 25939e56f6a3895ee4a47eed88fe9566174fb68f4daab506206c7917137a4750
     icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
@@ -95,9 +95,9 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-03-26T13:47:42.3685278+02:00"
+    created: "2024-03-26T13:48:19.881511+02:00"
     description: UBOS UI - web user interface builder.
-    digest: 119d945a7c96604c802c667d2164aa07f842cad50b4bfe1ab3ec6f2657f523d1
+    digest: ff7e05575aea87afad2bac35898d98cc955c01687e513c765e207afe45b70de8
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
     maintainers:
     - email: ubos@ubos.tech
@@ -106,4 +106,4 @@ entries:
     urls:
     - UI Editor-0.0.2.tgz
     version: 0.0.2
-generated: "2024-03-26T13:47:42.3635246+02:00"
+generated: "2024-03-26T13:48:19.8761017+02:00"
