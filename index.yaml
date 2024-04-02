@@ -5,7 +5,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-04-02T09:51:50.2056758+03:00"
+    created: "2024-04-02T10:28:09.3693381+03:00"
     description: Open-source vector storage system.
     digest: de30ee9ffb4a493934ea24a7a7111587544c9b040a87854be308787d10dd4b19
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -20,7 +20,21 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-04-02T09:51:50.2062434+03:00"
+    created: "2024-04-02T10:28:09.3708726+03:00"
+    description: Non-relational document database.
+    digest: ac7520e317eb33bd3d5b679647479ee7742815745ef54a9968eef26b9ac006b4
+    icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: Mongo DB
+    urls:
+    - Mongo DB-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-04-02T10:28:09.3703615+03:00"
     description: Non-relational document database.
     digest: 47916bb09a751ad292f6b4c76cf19ae9c17f44314e44516783008dd0dcf772e0
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -35,7 +49,21 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-04-02T09:51:50.2067742+03:00"
+    created: "2024-04-02T10:28:09.3745798+03:00"
+    description: Relational database management system.
+    digest: 48bb78c7d2691336255c18d5bf952c90b33523426ed15041bf83cf8e8680663c
+    icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: MySQL
+    urls:
+    - MySQL-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-04-02T10:28:09.3735311+03:00"
     description: Relational database management system.
     digest: cce982b65db8d92a80b5868b2caa7fbad679312ee31df58faf2e848885400d7e
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -50,7 +78,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-04-02T09:51:50.2083363+03:00"
+    created: "2024-04-02T10:28:09.3746075+03:00"
     description: Back-end applications using  visual blocks.
     digest: ab5116d1f9100c4dbc960d40148f2c779c9884a9ea48f0501e7fc68a61fc0818
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -65,7 +93,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-04-02T09:51:50.2088735+03:00"
+    created: "2024-04-02T10:28:09.3751401+03:00"
     description: Object-relational database system.
     digest: a0bc714547f600c6905ab363d506c913e2f6759dba6f85224cd6b48beb086c36
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -80,7 +108,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-04-02T09:51:50.2094035+03:00"
+    created: "2024-04-02T10:28:09.3756718+03:00"
     description: Cloud  IDEs
     digest: 90a74385a546c35dbf94756b01a68c5fe09052c9cbe6d0864e576f77883674fc
     icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
@@ -95,7 +123,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-04-02T09:51:50.2099194+03:00"
+    created: "2024-04-02T10:28:09.3762097+03:00"
     description: UBOS UI - web user interface builder.
     digest: cb0ac69bce203ce346a76f52562fec1d98bc70df76a95bb1a65c6f179c7e9b2b
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -106,4 +134,4 @@ entries:
     urls:
     - UI Editor-0.0.2.tgz
     version: 0.0.2
-generated: "2024-04-02T09:51:50.2045191+03:00"
+generated: "2024-04-02T10:28:09.3693381+03:00"

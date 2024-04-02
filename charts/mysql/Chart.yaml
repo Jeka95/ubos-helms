@@ -2,7 +2,7 @@ apiVersion: v2
 description: Relational database management system.
 name: MySQL
 icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
-version: 0.0.2
+version: 0.0.3
 annotations: 
   repository: https://jeka95.github.io/ubos-helms/
 maintainers:
