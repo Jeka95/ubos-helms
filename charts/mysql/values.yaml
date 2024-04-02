@@ -1,104 +1,104 @@
-generic:
-  labels: 
-     link: ubos-service-service_label
-  annotations: {}
-  extraSelectorLabels: {}
-  podLabels: {}
-  podAnnotations: {}
-  extraVolumes: []
-  extraImagePullSecrets:
-    - name: regcred
-podAffinityPreset: soft
-podAntiAffinityPreset: soft
-nodeAffinityPreset:
-  type: ''
-  key: ''
-  values: []
-releasePrefix: ''
-envs: {}
-envsString: ''
-secretEnvs: {}
-secretEnvsString: ''
-imagePullSecrets: {}
-defaultImage: nodered/node-red
-defaultImageTag: latest
-defaultImagePullPolicy: IfNotPresent
-deployments:
-  mysql-7435:
-    name: ubos-service-service_label
-    labels: {}
-    podLabels: {}
-    replicaCount: "1"
-    nodeSelector: {}
-    tolerations: []
-    strategy:
-      type: Recreate
-    extraImagePullSecrets:
-      - name: regcred
-    extraSelectorLabels:
-      app: ubos-service-service_label
-    serviceAccountName: default
-    containers:
-      - name: ubos-service-service_label
-        image: mysql
-        imagePullPolicy: Always
-        env:
-          - name: MYSQL_DATABASE
-            value: ubos-service-name
-          - name: MYSQL_USER
-            value: ubos-service-user-name
-          - name: MYSQL_PASSWORD
-            value: ubos-service-password
-          - name: MYSQL_ROOT_PASSWORD
-            value: ubos-service-password
-        envsFromSecret: {}
-        readinessProbe:
-          failureThreshold: 20
-          tcpSocket:
-            port: 3306
-          initialDelaySeconds: 30
-          periodSeconds: 20
-          successThreshold: 1
-          timeoutSeconds: 15
-        envSecrets: []
-        envsFromConfigmap: {}
-        envConfigmaps: []
-        volumeMounts:
-          - name: ubos-service-service_label
-            mountPath: /data/db
-        resources: {}
-    volumes:
-      - type: pvc
-        name: ubos-service-service_label
-        items:
-          - key: ubos-service-service_label
-            path: ubos-service-service_label
-services:
-  mysql-7435:
-    name: ubos-service-service_label
-    ports:
-      - port: 3306
-        targetPort: 3306
-        protocol: TCP
-    extraSelectorLabels:
-      app: ubos-service-service_label
-    type: ClusterIP
-ingresses: {}
-secrets: {}
-configMaps: {}
-pvcs:
-  ubos-service-service_label:
-    accessModes:
-      - ReadWriteOnce
-    size: 5Gi
-hooks: {}
-cronJobs: {}
-jobs: {}
-serviceMonitors: {}
-diagnosticMode:
-  enbled: false
-  command:
-    - sleep
-  args:
-    - infinity
-extraDeploy: {}
+# generic:
+#   labels: 
+#      link: ubos-service-service_label
+#   annotations: {}
+#   extraSelectorLabels: {}
+#   podLabels: {}
+#   podAnnotations: {}
+#   extraVolumes: []
+#   extraImagePullSecrets:
+#     - name: regcred
+# podAffinityPreset: soft
+# podAntiAffinityPreset: soft
+# nodeAffinityPreset:
+#   type: ''
+#   key: ''
+#   values: []
+# releasePrefix: ''
+# envs: {}
+# envsString: ''
+# secretEnvs: {}
+# secretEnvsString: ''
+# imagePullSecrets: {}
+# defaultImage: nodered/node-red
+# defaultImageTag: latest
+# defaultImagePullPolicy: IfNotPresent
+# deployments:
+#   mysql-7435:
+#     name: ubos-service-service_label
+#     labels: {}
+#     podLabels: {}
+#     replicaCount: "1"
+#     nodeSelector: {}
+#     tolerations: []
+#     strategy:
+#       type: Recreate
+#     extraImagePullSecrets:
+#       - name: regcred
+#     extraSelectorLabels:
+#       app: ubos-service-service_label
+#     serviceAccountName: default
+#     containers:
+#       - name: ubos-service-service_label
+#         image: mysql
+#         imagePullPolicy: Always
+#         env:
+#           - name: MYSQL_DATABASE
+#             value: ubos-service-name
+#           - name: MYSQL_USER
+#             value: ubos-service-user-name
+#           - name: MYSQL_PASSWORD
+#             value: ubos-service-password
+#           - name: MYSQL_ROOT_PASSWORD
+#             value: ubos-service-password
+#         envsFromSecret: {}
+#         readinessProbe:
+#           failureThreshold: 20
+#           tcpSocket:
+#             port: 3306
+#           initialDelaySeconds: 30
+#           periodSeconds: 20
+#           successThreshold: 1
+#           timeoutSeconds: 15
+#         envSecrets: []
+#         envsFromConfigmap: {}
+#         envConfigmaps: []
+#         volumeMounts:
+#           - name: ubos-service-service_label
+#             mountPath: /data/db
+#         resources: {}
+#     volumes:
+#       - type: pvc
+#         name: ubos-service-service_label
+#         items:
+#           - key: ubos-service-service_label
+#             path: ubos-service-service_label
+# services:
+#   mysql-7435:
+#     name: ubos-service-service_label
+#     ports:
+#       - port: 3306
+#         targetPort: 3306
+#         protocol: TCP
+#     extraSelectorLabels:
+#       app: ubos-service-service_label
+#     type: ClusterIP
+# ingresses: {}
+# secrets: {}
+# configMaps: {}
+# pvcs:
+#   ubos-service-service_label:
+#     accessModes:
+#       - ReadWriteOnce
+#     size: 5Gi
+# hooks: {}
+# cronJobs: {}
+# jobs: {}
+# serviceMonitors: {}
+# diagnosticMode:
+#   enbled: false
+#   command:
+#     - sleep
+#   args:
+#     - infinity
+# extraDeploy: {}
