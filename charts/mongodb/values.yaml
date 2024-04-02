@@ -16,7 +16,7 @@
 #   values: []
 # releasePrefix: ''
 # envs: {}
-# envsString: ''
+# envsString: '' 
 # secretEnvs: {}
 # secretEnvsString: ''
 # imagePullSecrets: {}
