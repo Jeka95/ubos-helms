@@ -46,21 +46,6 @@ entries:
     urls:
     - MySQL-0.0.2.tgz
     version: 0.0.2
-  Node Red:
-  - annotations:
-      repository: https://jeka95.github.io/ubos-helms/
-    apiVersion: v2
-    created: "2024-03-28T11:26:20.7569949+02:00"
-    description: Back-end applications using  visual blocks.
-    digest: 5a07a4a7764a8d23e9b64f9e014cae3ac6565a1aeb6ab31c22aabe44dc24cdb7
-    icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
-    maintainers:
-    - email: ubos@ubos.tech
-      name: UBOS
-    name: Node Red
-    urls:
-    - Node Red-0.0.2.tgz
-    version: 0.0.2
   PostgreSQL:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
@@ -90,6 +75,21 @@ entries:
     name: Theia
     urls:
     - Theia-0.0.2.tgz
+    version: 0.0.2
+  Node Red:
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-03-28T11:26:20.7569949+02:00"
+    description: Back-end applications using  visual blocks.
+    digest: 5a07a4a7764a8d23e9b64f9e014cae3ac6565a1aeb6ab31c22aabe44dc24cdb7
+    icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: Node Red
+    urls:
+    - Node Red-0.0.2.tgz
     version: 0.0.2
   UI Editor:
   - annotations:
