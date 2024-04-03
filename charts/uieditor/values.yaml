@@ -30,7 +30,7 @@
 #     replicaCount: "1"
 #     nodeSelector: {}
 #     tolerations: []
-#     initContainers:[] 
+#     initContainers: [] 
 #     strategy:
 #       type: Recreate
 #     extraImagePullSecrets:
