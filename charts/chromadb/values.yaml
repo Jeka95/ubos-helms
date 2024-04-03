@@ -1,114 +1,114 @@
 
 
-replicaCount: 1
+# replicaCount: 1
 
-image:
-  repository: ghcr.io/amikos-tech/chromadb-chart/chroma
-  pullPolicy: IfNotPresent
+# image:
+#   repository: ghcr.io/amikos-tech/chromadb-chart/chroma
+#   pullPolicy: IfNotPresent
 
-imagePullSecrets: [ ]
-nameOverride: ""
-fullnameOverride: ""
+# imagePullSecrets: [ ]
+# nameOverride: ""
+# fullnameOverride: ""
 
-serviceAccount:
+# serviceAccount:
 
-  create: true
+#   create: true
 
-  annotations: { }
+#   annotations: { }
 
-  name: ""
-
-
-service:
-  type: NodePort 
-
-ingress:
-  enabled: false
-  className: ""
-  annotations: { }
-
-  hosts:
-    - host: chart-example.local
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
-  tls: [ ]
+#   name: ""
 
 
-resources: {}
+# service:
+#   type: NodePort 
+
+# ingress:
+#   enabled: false
+#   className: ""
+#   annotations: { }
+
+#   hosts:
+#     - host: chart-example.local
+#       paths:
+#         - path: /
+#           pathType: ImplementationSpecific
+#   tls: [ ]
 
 
-autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80
+# resources: {}
 
-nodeSelector: { }
-tolerations: [ ]
 
-affinity: { }
+# autoscaling:
+#   enabled: false
+#   minReplicas: 1
+#   maxReplicas: 100
+#   targetCPUUtilizationPercentage: 80
+#   # targetMemoryUtilizationPercentage: 80
 
-podSpec:
-  terminationGracePeriodSeconds: 5
-  securityContext: { }
-  podAnnotations: { }
-  annotations: { }
-  initContainers: [ ]
-readinessProbe:
-  failureThreshold: 20
-  timeoutSeconds: 10
-  periodSeconds: 5
-livenessProbe:
-  failureThreshold: 40
-  timeoutSeconds: 10
-  periodSeconds: 5
-startupProbe:
-  failureThreshold: 1000
-  periodSeconds: 5
-  initialDelaySeconds: 10
+# nodeSelector: { }
+# tolerations: [ ]
 
-chromadb:
-  apiVersion: "0.4.14"
-  allowReset: false
-  isPersistent: true
-  persistDirectory: /index_data
-  logConfigFileLocation: config/log_config.yaml
-  anonymizedTelemetry: false
-  replicaCount: 1
-  corsAllowOrigins:
-    - "*"
-  apiImpl: "chromadb.api.segment.SegmentAPI"
-  serverHost: "0.0.0.0"
-  serverHttpPort: 8000
-  dataVolumeSize: "1Gi"
-  dataVolumeStorageClass: null
-  auth:
-    enabled: true
-    type: "token" 
-    basic:
-      username: "chroma"
-      password: null  
-      config:
-        env:
-          - name: CHROMA_SERVER_AUTH_CREDENTIALS_PROVIDER
-            value: "chromadb.auth.providers.HtpasswdFileServerAuthCredentialsProvider"
-          - name: CHROMA_SERVER_AUTH_PROVIDER
-            value: "chromadb.auth.basic.BasicAuthServerProvider"
-          - name: CHROMA_SERVER_AUTH_CREDENTIALS_FILE
-            value: "/chroma/auth/server.htpasswd"
-    token:
-      headerType: "AUTHORIZATION" 
-      value: null 
-      config:
-        env:
-          - name: CHROMA_SERVER_AUTH_CREDENTIALS
-            valueFrom:
-              secretKeyRef:
-                name: chromadb-auth
-                key: token
-          - name: CHROMA_SERVER_AUTH_CREDENTIALS_PROVIDER
-            value: "chromadb.auth.token.TokenConfigServerAuthCredentialsProvider"
-          - name: CHROMA_SERVER_AUTH_PROVIDER
-            value: "chromadb.auth.token.TokenAuthServerProvider"
+# affinity: { }
+
+# podSpec:
+#   terminationGracePeriodSeconds: 5
+#   securityContext: { }
+#   podAnnotations: { }
+#   annotations: { }
+#   initContainers: [ ]
+# readinessProbe:
+#   failureThreshold: 20
+#   timeoutSeconds: 10
+#   periodSeconds: 5
+# livenessProbe:
+#   failureThreshold: 40
+#   timeoutSeconds: 10
+#   periodSeconds: 5
+# startupProbe:
+#   failureThreshold: 1000
+#   periodSeconds: 5
+#   initialDelaySeconds: 10
+
+# chromadb:
+#   apiVersion: "0.4.14"
+#   allowReset: false
+#   isPersistent: true
+#   persistDirectory: /index_data
+#   logConfigFileLocation: config/log_config.yaml
+#   anonymizedTelemetry: false
+#   replicaCount: 1
+#   corsAllowOrigins:
+#     - "*"
+#   apiImpl: "chromadb.api.segment.SegmentAPI"
+#   serverHost: "0.0.0.0"
+#   serverHttpPort: 8000
+#   dataVolumeSize: "1Gi"
+#   dataVolumeStorageClass: null
+#   auth:
+#     enabled: true
+#     type: "token" 
+#     basic:
+#       username: "chroma"
+#       password: null  
+#       config:
+#         env:
+#           - name: CHROMA_SERVER_AUTH_CREDENTIALS_PROVIDER
+#             value: "chromadb.auth.providers.HtpasswdFileServerAuthCredentialsProvider"
+#           - name: CHROMA_SERVER_AUTH_PROVIDER
+#             value: "chromadb.auth.basic.BasicAuthServerProvider"
+#           - name: CHROMA_SERVER_AUTH_CREDENTIALS_FILE
+#             value: "/chroma/auth/server.htpasswd"
+#     token:
+#       headerType: "AUTHORIZATION" 
+#       value: null 
+#       config:
+#         env:
+#           - name: CHROMA_SERVER_AUTH_CREDENTIALS
+#             valueFrom:
+#               secretKeyRef:
+#                 name: chromadb-auth
+#                 key: token
+#           - name: CHROMA_SERVER_AUTH_CREDENTIALS_PROVIDER
+#             value: "chromadb.auth.token.TokenConfigServerAuthCredentialsProvider"
+#           - name: CHROMA_SERVER_AUTH_PROVIDER
+#             value: "chromadb.auth.token.TokenAuthServerProvider"
