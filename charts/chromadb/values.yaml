@@ -7,7 +7,7 @@
 #   pullPolicy: IfNotPresent
 
 # imagePullSecrets: [ ]
-# nameOverride: ubos-service-name
+# nameOverride: ubos-service-name-ubos-service-namespace
 # fullnameOverride: ubos-service-name-ubos-service-namespace-ubos-service-name
 
 # serviceAccount:
