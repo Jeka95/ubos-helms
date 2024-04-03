@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: {{ include "chart.fullname" . }}
+  name: {{ .Values.fullnameOverride }}
   namespace: "{{ .Release.Namespace }}"
   labels:
     {{- include "chart.labels" . | nindent 4 }}
 spec:
-  serviceName: "{{ include "chart.fullname" . }}"
+  serviceName: "{{ .Values.fullnameOverride }}"
   podManagementPolicy: "Parallel" # This setting means that the StatefulSet controller doesn't block applying changes until the existing Pod is READY.
   replicas: {{ .Values.chromadbreplicaCount }}
   selector:
@@ -154,7 +154,7 @@ spec:
         {{- end }}
         - name: log-config
           configMap:
-            name: "{{ include "chart.fullname" . }}-log-config"
+            name: {{ .Values.fullnameOverride }}
             defaultMode: 0644
   {{- if eq .Values.chromadb.isPersistent true }}
   volumeClaimTemplates:
