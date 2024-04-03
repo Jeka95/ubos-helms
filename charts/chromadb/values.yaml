@@ -89,7 +89,7 @@
 #     type: "token" 
 #     basic:
 #       username: "chroma"
-#       password: null  
+#       password: "chroma"  
 #       config:
 #         env:
 #           - name: CHROMA_SERVER_AUTH_CREDENTIALS_PROVIDER
@@ -100,7 +100,7 @@
 #             value: "/chroma/auth/server.htpasswd"
 #     token:
 #       headerType: "AUTHORIZATION" 
-#       value: null 
+#       value: sadsadsadasdsasad 
 #       config:
 #         env:
 #           - name: CHROMA_SERVER_AUTH_CREDENTIALS
