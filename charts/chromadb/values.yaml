@@ -8,7 +8,7 @@
 
 # imagePullSecrets: [ ]
 # nameOverride: ""
-# fullnameOverride: ubos-service-name
+# fullnameOverride: ubos-service-name-ubos-service-namespace-ubos-service-name
 
 # serviceAccount:
 
