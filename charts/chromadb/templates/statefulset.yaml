@@ -8,7 +8,7 @@ metadata:
 spec:
   serviceName: "{{ .Values.fullnameOverride }}"
   podManagementPolicy: "Parallel" # This setting means that the StatefulSet controller doesn't block applying changes until the existing Pod is READY.
-  replicas: {{ .Values.chromadbreplicaCount }}
+  replicas: {{ .Values.chromadb.replicaCount }}
   selector:
     matchLabels:
       {{- include "chart.selectorLabels" . | nindent 6 }}
