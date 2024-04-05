@@ -74,7 +74,7 @@
 #           - key: ubos-service-service_label
 #             path: ubos-service-service_label
 # services:
-#   mysql-7435:
+#   ubos-service-name:
 #     name: ubos-service-service_label
 #     ports:
 #       - port: 3306
