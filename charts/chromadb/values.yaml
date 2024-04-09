@@ -85,7 +85,7 @@
 #   dataVolumeSize: "1Gi"
 #   dataVolumeStorageClass: null
 #   auth:
-#     enabled: true
+#     enabled: false
 #     type: "token" 
 #     basic:
 #       username: "chroma"
