@@ -50,14 +50,14 @@
 #           - name: POSTGRES_PASSWORD
 #             value: ubos-service-password
 #         envsFromSecret: {}
-#         readinessProbe:
-#           failureThreshold: 20
-#           tcpSocket:
-#             port: 5432
-#           initialDelaySeconds: 30
-#           periodSeconds: 20
-#           successThreshold: 1
-#           timeoutSeconds: 15
+        # startupProbe:
+#          tcpSocket:
+#            port: 5432
+        #  failureThreshold: 30
+        #  periodSeconds: 10
+        # readinessProbe:
+#          tcpSocket:
+#            port: 5432
 #         envSecrets: []
 #         envsFromConfigmap: {}
 #         envConfigmaps: []
