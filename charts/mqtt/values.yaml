@@ -45,9 +45,8 @@ tolerations: []
 affinity: {}
 
 authentication:
-  passwordEntries: ""
-  # passwordEntries: |-
-  #   unos-service-mqtt-hesh-login
+  passwordEntries: |-
+    unos-service-mqtt-hesh-login
   passwordFilePath: "/etc/mosquitto/passwordfile"
 
 authorization:
