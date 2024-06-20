@@ -1,83 +1,86 @@
-replicaCount: 1
-strategyType: Recreate
+# replicaCount: 1
+# strategyType: Recreate
 
-image:
-  repository: eclipse-mosquitto
-  tag: 1.6.12
-  pullPolicy: IfNotPresent
+# image:
+#   repository: eclipse-mosquitto
+#   tag: 1.6.12
+#   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
-nameOverride: ubos-service-name
-fullnameOverride: ""
+# imagePullSecrets: []
+# nameOverride: ubos-service-name
+# fullnameOverride: ""
 
-serviceAccount:
-  create: true
-  name:
+# serviceAccount:
+#   create: true
+#   name:
 
-service:
-  type: LoadBalancer
-  externalTrafficPolicy: Cluster
-  annotations: {}
+# service:
+#   type: LoadBalancer
+#   externalTrafficPolicy: Cluster
+#   annotations: {}
 
-ports:
-  mqtt:
-    port: 1883
-    protocol: TCP
+# ports:
+#   mqtt:
+#     port: 1883
+#     protocol: TCP
+#   websocket:
+#     port: 9090
+#     protocol: TCP
 
-persistence:
-  enabled: true
-  accessMode: ReadWriteOnce
-  existingClaim: ""
-  mountPath: /mosquitto/data
-  subPath: ""
-  size: 1Gi
+# persistence:
+#   enabled: true
+#   accessMode: ReadWriteOnce
+#   existingClaim: ""
+#   mountPath: /mosquitto/data
+#   subPath: ""
+#   size: 1Gi
 
-resources: {}
+# resources: {}
 
-podSecurityContext: {}
+# podSecurityContext: {}
 
-securityContext: {}
+# securityContext: {}
 
-nodeSelector: {}
+# nodeSelector: {}
 
-tolerations: []
+# tolerations: []
 
-affinity: {}
+# affinity: {}
 
-authentication:
-  passwordEntries: |-
-    ubos-service-mqtt-hesh-login
-  passwordFilePath: "/etc/mosquitto/passwordfile"
+# authentication:
+#   passwordEntries: |-
+#     ubos-service-mqtt-hesh-login
+#   passwordFilePath: "/etc/mosquitto/passwordfile"
 
-authorization:
-  acls: ""
-  aclfilePath: "/etc/mosquitto/aclfile"
+# authorization:
+#   acls: ""
+#   aclfilePath: "/etc/mosquitto/aclfile"
 
-existingConfigMap: ""
-config: |
-  persistence true
-  persistence_location /mosquitto/data/
-  log_dest stdout
-  listener 1883
-  listener 9090
-  protocol websockets
+# existingConfigMap: ""
+# config: |
+#   persistence true
+#   persistence_location /mosquitto/data/
+#   log_dest stdout
+#   listener 1883
+#   listener 9090
+#   protocol websockets
 
-extraVolumes: []
-extraVolumeMounts: []
-monitoring:
-  podMonitor:
-    enabled: false
-  sidecar:
-    enabled: false
-    port: 9234
-    image:
-      repository: nolte/mosquitto-exporter
-      tag: v0.6.3
-      pullPolicy: IfNotPresent
-    resources:
-      limits:
-        cpu: 300m
-        memory: 128Mi
-      requests:
-        cpu: 100m
-        memory: 64Mi
+# extraVolumes: []
+# extraVolumeMounts: []
+# monitoring:
+#   podMonitor:
+#     enabled: false
+#   sidecar:
+#     enabled: false
+#     port: 9234
+#     image:
+#       repository: nolte/mosquitto-exporter
+#       tag: v0.6.3
+#       pullPolicy: IfNotPresent
+#     resources:
+#       limits:
+#         cpu: 300m
+#         memory: 128Mi
+#       requests:
+#         cpu: 100m
+#         memory: 64Mi

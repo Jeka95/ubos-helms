@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Eclipse Mosquitto
 name: MQTT
-version: 0.0.7
+version: 0.0.8
 icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
 annotations:
   repository: https://jeka95.github.io/ubos-helms/
