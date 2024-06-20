@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: "1.6.12"
+description: Eclipse Mosquitto is an open source message broker which implements MQTT version 5, 3.1.1 and 3.1
+name: MQTT
+version: 0.0.1
+icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
+annotations:
+  repository: https://jeka95.github.io/ubos-helms/
+maintainers:
+  - name: UBOS
+    email: ubos@ubos.tech
