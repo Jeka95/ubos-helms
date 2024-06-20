@@ -5,7 +5,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.8008477+03:00"
+    created: "2024-06-21T00:15:51.9540696+03:00"
     description: Open-source vector storage system.
     digest: 4a1a3025f55c7c13b90876c977e89cd5f1fe31a55d466dbfebb8b1f0ea6f43ce
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -20,7 +20,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.8008265+03:00"
+    created: "2024-06-21T00:15:51.9539791+03:00"
     description: Open-source vector storage system.
     digest: 9adf2d426ef0d3eb7481c59fc9271139394e59314e2213d40f5ad3e8e0daea52
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -35,7 +35,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.8003105+03:00"
+    created: "2024-06-21T00:15:51.952943+03:00"
     description: Open-source vector storage system.
     digest: fc838c303941faa915cb1bc97522d2745f9a3ac0925933ede751835c34acd520
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -50,7 +50,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7997421+03:00"
+    created: "2024-06-21T00:15:51.9524139+03:00"
     description: Open-source vector storage system.
     digest: f0cd86849b3bc7d8fdabb739c5365b7807c4669ff6bc26109b48263f0576cb09
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -65,7 +65,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7997421+03:00"
+    created: "2024-06-21T00:15:51.9518214+03:00"
     description: Open-source vector storage system.
     digest: 4e952a2b1b093336b54daf045230b9a1c0d91b88f52bf302c91445952ad5a399
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -80,7 +80,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7992062+03:00"
+    created: "2024-06-21T00:15:51.9511487+03:00"
     description: Open-source vector storage system.
     digest: efa4bc7238490a0b9a836ba135f7295df73b120282ffb479b744fef75a38b78f
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -95,7 +95,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7992062+03:00"
+    created: "2024-06-21T00:15:51.9511487+03:00"
     description: Open-source vector storage system.
     digest: 762df978ecbb7405650787ffddff5d027e63b8d3c2af8e0a9f9300b53216e4fd
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -110,7 +110,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7986701+03:00"
+    created: "2024-06-21T00:15:51.9505411+03:00"
     description: Open-source vector storage system.
     digest: 2a73a3a8e4aa46a2d7f5de11120e8519eb5a139bdf9b41ff646d6d771a32c4b1
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -125,7 +125,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7981346+03:00"
+    created: "2024-06-21T00:15:51.9499957+03:00"
     description: Open-source vector storage system.
     digest: 710d33393b20fbb87b5e652e32937327e3c9d95c8d122abb50815efdc50440f9
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -140,7 +140,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7981346+03:00"
+    created: "2024-06-21T00:15:51.9499957+03:00"
     description: Open-source vector storage system.
     digest: 31f33e89ad06e5bd095102a68d7dc7470d810aaf7b04b605fb9e4e74808d5c98
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -155,7 +155,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.797596+03:00"
+    created: "2024-06-21T00:15:51.9494498+03:00"
     description: Open-source vector storage system.
     digest: 1d079a86dba30181ce1ba270ba940f778a4f74e0a59100f8e7c45dcc6aff10a2
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -170,7 +170,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7970576+03:00"
+    created: "2024-06-21T00:15:51.9494498+03:00"
     description: Open-source vector storage system.
     digest: de30ee9ffb4a493934ea24a7a7111587544c9b040a87854be308787d10dd4b19
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -185,7 +185,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2024-06-21T00:12:35.7964888+03:00"
+    created: "2024-06-21T00:15:51.9489056+03:00"
     description: Open-source vector storage system.
     digest: e9232b96549c8b1c9526aa36ccc52caf59fd73f0c2fb19ddd94b5a47c270fc1d
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -200,7 +200,21 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8035052+03:00"
+    created: "2024-06-21T00:15:51.9572349+03:00"
+    description: Eclipse Mosquitto
+    digest: 4ac50ea4997b9d6b405527e9ef513a39fd461de75799280465a46e9a99d2ee23
+    icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
+    maintainers:
+    - email: ubos@ubos.tech
+      name: UBOS
+    name: MQTT
+    urls:
+    - MQTT-0.0.7.tgz
+    version: 0.0.7
+  - annotations:
+      repository: https://jeka95.github.io/ubos-helms/
+    apiVersion: v2
+    created: "2024-06-21T00:15:51.9567152+03:00"
     description: Eclipse Mosquitto
     digest: 8a533d3588e0e5d4523ea39ae367b9188c63035b50cdb81713cde29b82866f69
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -214,7 +228,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8034719+03:00"
+    created: "2024-06-21T00:15:51.9561869+03:00"
     description: Eclipse Mosquitto
     digest: 79f0984ffe052f24bf67cf341932170b58383bf7ae3334dffdfef29e0867ce8e
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -228,7 +242,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8029652+03:00"
+    created: "2024-06-21T00:15:51.9556553+03:00"
     description: Eclipse Mosquitto
     digest: 34f99e10f5d601303144a5f739e7443f52a9528c0f8481a56fb84c2bc32aeb8d
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -242,7 +256,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8024495+03:00"
+    created: "2024-06-21T00:15:51.9556288+03:00"
     description: Eclipse Mosquitto
     digest: 4b325cb185f0cae15b887b0abd9022fb15bf37d5c06658ffc38b407905e991c7
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -256,7 +270,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8019176+03:00"
+    created: "2024-06-21T00:15:51.9551156+03:00"
     description: Eclipse Mosquitto
     digest: 4397095fd1f40a41eebf8d703ac5a95917517e0f952fac4bca83ef675fe96514
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -270,7 +284,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8013833+03:00"
+    created: "2024-06-21T00:15:51.9545864+03:00"
     description: Eclipse Mosquitto
     digest: 907580d384c61cbf6221bb309afeac13b3aadbf2fef6286c2f17c832200dd73d
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -285,7 +299,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8056262+03:00"
+    created: "2024-06-21T00:15:51.9583374+03:00"
     description: Non-relational document database.
     digest: ecff855c62bccd186d9b708ddc52e28b2154f6beb3489b474feba0d92bc227ba
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -299,7 +313,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8045772+03:00"
+    created: "2024-06-21T00:15:51.9577898+03:00"
     description: Non-relational document database.
     digest: 379aa50ef5561aeb8e45e19197ecae88c50f285ea15a21c371a4d226a43fcd53
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -313,7 +327,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8040406+03:00"
+    created: "2024-06-21T00:15:51.9572349+03:00"
     description: Non-relational document database.
     digest: 47916bb09a751ad292f6b4c76cf19ae9c17f44314e44516783008dd0dcf772e0
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -328,7 +342,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8083571+03:00"
+    created: "2024-06-21T00:15:51.9621075+03:00"
     description: Relational database management system.
     digest: 105a3cd77ca8fe5432470ad4470a000bc024672c207b19613a5f96e0b4248e68
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -342,7 +356,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8078427+03:00"
+    created: "2024-06-21T00:15:51.9605261+03:00"
     description: Relational database management system.
     digest: 900e57ef231bf8bf0b4fad5233da7695560e37fdc18a1bfda29f0c70b496b9af
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -356,7 +370,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8073277+03:00"
+    created: "2024-06-21T00:15:51.9599789+03:00"
     description: Relational database management system.
     digest: 012c248e573e43f4c48a99489f2d1c842bbdb4c90d8b7115abee900daf6e57a9
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -370,7 +384,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8073064+03:00"
+    created: "2024-06-21T00:15:51.959423+03:00"
     description: Relational database management system.
     digest: e8739e93324db9fa5027f70084b0d482ae76c51c4f0faf1e1c34a7831123d6a2
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -384,7 +398,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8067902+03:00"
+    created: "2024-06-21T00:15:51.9593822+03:00"
     description: Relational database management system.
     digest: cce982b65db8d92a80b5868b2caa7fbad679312ee31df58faf2e848885400d7e
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -399,7 +413,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8104522+03:00"
+    created: "2024-06-21T00:15:51.9642064+03:00"
     description: Back-end applications using  visual blocks.
     digest: 4e1251ee06a942ddeb25d8e49aac16d36e7eadd9ecf8ed9d0cc40608a42b9cc6
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -413,7 +427,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8099004+03:00"
+    created: "2024-06-21T00:15:51.9636776+03:00"
     description: Back-end applications using  visual blocks.
     digest: 8a915b0896afa7ba314acd4e5ce120bbe2f0428399712fccbde538461b0954b5
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -427,7 +441,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8093859+03:00"
+    created: "2024-06-21T00:15:51.9631623+03:00"
     description: Back-end applications using  visual blocks.
     digest: 4ad244c7a133e7b48cb387d8b681fad24f44845836a5593400ed996b313b7df7
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -441,7 +455,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8088717+03:00"
+    created: "2024-06-21T00:15:51.9626514+03:00"
     description: Back-end applications using  visual blocks.
     digest: 2553bcb48d0727f9a826028cb7152c38509372d270ebb1166db958ce26500561
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -456,7 +470,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.811516+03:00"
+    created: "2024-06-21T00:15:51.9652642+03:00"
     description: Object-relational database system.
     digest: 09ebb4a8a56aad58b5c2e48e8f25ddb6991ccfdb94714ef9cc77fa6f5503784e
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -470,7 +484,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8110006+03:00"
+    created: "2024-06-21T00:15:51.9652642+03:00"
     description: Object-relational database system.
     digest: 6852db319f7f9fbed115c5f12ad51c01e6a399f81f18914d53556d9eee18c875
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -484,7 +498,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8110006+03:00"
+    created: "2024-06-21T00:15:51.9647338+03:00"
     description: Object-relational database system.
     digest: a0bc714547f600c6905ab363d506c913e2f6759dba6f85224cd6b48beb086c36
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -499,7 +513,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8125482+03:00"
+    created: "2024-06-21T00:15:51.9657801+03:00"
     description: Cloud  IDEs
     digest: 90a74385a546c35dbf94756b01a68c5fe09052c9cbe6d0864e576f77883674fc
     icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
@@ -514,7 +528,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.815182+03:00"
+    created: "2024-06-21T00:15:51.9694896+03:00"
     description: UBOS UI - web user interface builder.
     digest: 5fa32fc9fcdc871c093c1610811479fa244d81c970b649219e61b50b045846e3
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -528,7 +542,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8146543+03:00"
+    created: "2024-06-21T00:15:51.9684369+03:00"
     description: UBOS UI - web user interface builder.
     digest: 131861b3b44d13bdc9ac9167c51469f4cb287346b1ec15da727c9a4e055c1f3c
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -542,7 +556,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8141254+03:00"
+    created: "2024-06-21T00:15:51.9679086+03:00"
     description: UBOS UI - web user interface builder.
     digest: b9cb029e9e1ec157fef5117f5962f718f827801682cd2d91032f7786a3265db2
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -556,7 +570,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8135907+03:00"
+    created: "2024-06-21T00:15:51.9673814+03:00"
     description: UBOS UI - web user interface builder.
     digest: 328f3951b64a7112f56f57e7d2ced48379ab092c3fda518923f787e4ca334df0
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -570,7 +584,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2024-06-21T00:12:35.8130574+03:00"
+    created: "2024-06-21T00:15:51.9668534+03:00"
     description: UBOS UI - web user interface builder.
     digest: cb0ac69bce203ce346a76f52562fec1d98bc70df76a95bb1a65c6f179c7e9b2b
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -581,4 +595,4 @@ entries:
     urls:
     - UI Editor-0.0.2.tgz
     version: 0.0.2
-generated: "2024-06-21T00:12:35.7948252+03:00"
+generated: "2024-06-21T00:15:51.9483601+03:00"

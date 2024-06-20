@@ -29,7 +29,7 @@ spec:
     {{- end }}
       containers:
       {{- if .Values.monitoring.sidecar.enabled }}
-        - name: {{ .Values.nameOverride }}
+        - name: exporter
           image: "{{ .Values.monitoring.sidecar.image.repository }}:{{ .Values.monitoring.sidecar.image.tag }}"
           imagePullPolicy: {{ .Values.monitoring.sidecar.image.pullPolicy }}
           terminationMessagePath: /dev/termination-log
@@ -45,7 +45,7 @@ spec:
               name: prometheus
               protocol: TCP
       {{- end }}
-        - name: {{ .Chart.Name }}
+        - name: {{ .Values.nameOverride }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
         {{- with .Values.ports }}
