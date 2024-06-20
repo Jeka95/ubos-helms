@@ -46,7 +46,7 @@ affinity: {}
 
 authentication:
   passwordEntries: |-
-    unos-service-mqtt-hesh-login
+    ubos-service-mqtt-hesh-login
   passwordFilePath: "/etc/mosquitto/passwordfile"
 
 authorization:
