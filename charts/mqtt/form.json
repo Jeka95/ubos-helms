@@ -1,5 +1,6 @@
 {
    "name": "mqtt-g4",
    "user-name": "admin",
-   "password": "g-password"
+   "password": "g-password",
+   "url": "service-url"
 }
