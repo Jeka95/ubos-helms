@@ -29,7 +29,7 @@ spec:
     {{- end }}
       containers:
       {{- if .Values.monitoring.sidecar.enabled }}
-        - name: exporter
+        - name: {{ .Values.nameOverride }}
           image: "{{ .Values.monitoring.sidecar.image.repository }}:{{ .Values.monitoring.sidecar.image.tag }}"
           imagePullPolicy: {{ .Values.monitoring.sidecar.image.pullPolicy }}
           terminationMessagePath: /dev/termination-log
