@@ -1,5 +1,5 @@
 # generic:
-#   labels: 
+#   labels:
 #     link: ubos-service-service_label
 #   annotations: {}
 #   extraSelectorLabels: {}
@@ -24,7 +24,7 @@
 # defaultImageTag: latest
 # defaultImagePullPolicy: IfNotPresent
 # deployments:
-#   postgres-7700:
+#   ubos-service-name:
 #     name: ubos-service-service_label
 #     labels: {}
 #     podLabels: {}
@@ -50,12 +50,12 @@
 #           - name: POSTGRES_PASSWORD
 #             value: ubos-service-password
 #         envsFromSecret: {}
-        # startupProbe:
+# startupProbe:
 #          tcpSocket:
 #            port: 5432
-        #  failureThreshold: 30
-        #  periodSeconds: 10
-        # readinessProbe:
+#  failureThreshold: 30
+#  periodSeconds: 10
+# readinessProbe:
 #          tcpSocket:
 #            port: 5432
 #         envSecrets: []
