@@ -52,14 +52,14 @@
 #           - name: MYSQL_ROOT_PASSWORD
 #             value: ubos-service-password
 #         envsFromSecret: {}
-# startupProbe:
-#           tcpSocket:
-#             port: 3306
-#  failureThreshold: 30
-#  periodSeconds: 10
-# readinessProbe:
-#           tcpSocket:
-#             port: 3306
+#         startupProbe:
+#          tcpSocket:
+#           port: 3306
+#          failureThreshold: 30
+#          periodSeconds: 10
+#         readinessProbe:
+#          tcpSocket:
+#           port: 3306
 #         envSecrets: []
 #         envsFromConfigmap: {}
 #         envConfigmaps: []
