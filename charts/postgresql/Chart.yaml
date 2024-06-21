@@ -2,7 +2,7 @@ apiVersion: v2
 description: Object-relational database system.
 name: PostgreSQL
 icon: https://www.postgresql.org/media/img/about/press/elephant.png
-version: 0.0.6
+version: 0.0.7
 annotations:
   repository: https://jeka95.github.io/ubos-helms/
 maintainers:

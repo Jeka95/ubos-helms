@@ -63,7 +63,8 @@
 #         envConfigmaps: []
 #         volumeMounts:
 #           - name: ubos-service-service_label
-#             mountPath: /data/db
+#             mountPath: "/var/lib/postgresql/data",
+#             subPath: "postgres"
 #         resources: {}
 #     volumes:
 #       - type: pvc

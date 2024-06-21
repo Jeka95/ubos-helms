@@ -65,7 +65,7 @@
 #         envConfigmaps: []
 #         volumeMounts:
 #           - name: ubos-service-service_label
-#             mountPath: /data/db
+#             mountPath: /var/lib/mysql
 #         resources: {}
 #     volumes:
 #       - type: pvc
