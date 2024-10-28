@@ -1,0 +1,10 @@
+apiVersion: v2
+name: bytebase
+version: 1.1.1
+description: Safe database schema change and version control for DevOps teams.
+icon: https://raw.githubusercontent.com/bytebase/bytebase.com/main/public/images/logo.svg
+annotations:
+  repository: https://jeka95.github.io/ubos-helms/
+maintainers:
+  - name: UBOS
+    email: ubos@ubos.tech

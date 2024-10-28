@@ -1,5 +1,5 @@
 host: example.com # Доменне ім'я для інгресу
-serviceName: my-service # Назва сервісу, який обробляє трафік
+serviceName: ubos-service-service-name # Назва сервісу, який обробляє трафік
 servicePort: 80 # Порт сервісу, на який інгрес буде перенаправляти трафік
 
 # TLS та Cert-Manager конфігурація

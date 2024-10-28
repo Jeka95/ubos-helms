@@ -1,0 +1,36 @@
+name: bytebase
+bytebase:
+  nodeSelector: []
+  tolerations: {}
+  replicaCount: 1
+  version: 3.0.0
+  registryMirrorHost: ""
+  option:
+    port: 8080
+    data: "/var/opt/bytebase"
+    external-url: "https://www.bytebase.com/docs/get-started/install/external-url"
+    disable-sample: false
+    externalPg:
+      url: ""
+      existingPgURLSecret: ""
+      existingPgURLSecretKey: ""
+      pgHost: "host"
+      pgPort: "port"
+      pgUsername: "username"
+      pgPassword: "password"
+      pgDatabase: "database"
+      existingPgPasswordSecret: ""
+      existingPgPasswordSecretKey: ""
+      escapePassword: false
+  persistence:
+    enabled: false
+    existingClaim: ""
+    storage: 2Gi
+    storageClass: ""
+  resources: {}
+host: example.com
+servicePort: 80
+tls: true
+tlsSecretName: ubos-service-tls-secret
+certManagerEnabled: false
+clusterIssuer: letsencrypt-prod
