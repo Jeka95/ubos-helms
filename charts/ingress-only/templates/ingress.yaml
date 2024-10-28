@@ -9,6 +9,7 @@ metadata:
     cert-manager.io/cluster-issuer: {{ .Values.clusterIssuer }}
     {{- end }}
 spec:
+  ingressClassName: "nginx"  # Додаємо клас nginx у spec
   {{- if .Values.tls }}
   tls:
     - hosts:

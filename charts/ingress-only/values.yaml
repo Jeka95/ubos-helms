@@ -4,6 +4,6 @@ servicePort: 80 # Порт сервісу, на який інгрес буде �
 
 # TLS та Cert-Manager конфігурація
 tls: true # Увімкнути TLS
-tlsSecretName: my-tls-secret # Назва секрету TLS
+tlsSecretName: ubos-service-tls-secret # Назва секрету TLS
 certManagerEnabled: true # Увімкнути Cert-Manager анотації
 clusterIssuer: letsencrypt-prod # Ім'я кластерного видавця
