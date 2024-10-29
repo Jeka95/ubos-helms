@@ -1,0 +1,10 @@
+apiVersion: v2
+description: Database client DBeaver for SQL DBs
+name: dbeaver
+icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
+version: 0.0.1
+annotations:
+  repository: https://jeka95.github.io/ubos-helms/
+maintainers:
+  - name: UBOS
+    email: ubos@ubos.tech
