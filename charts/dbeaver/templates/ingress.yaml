@@ -8,8 +8,6 @@ metadata:
   name: {{ template "dbeaver.fullname" . }}-ingress
   labels: 
     {{- include "dbeaver.labels" . | nindent 4 }}
-{{- if .Values.ingress.annotations }}
-
 spec:
   ingressClassName: {{ .Values.ingress.className }}
   rules:
