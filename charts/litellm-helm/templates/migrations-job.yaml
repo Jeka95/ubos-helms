@@ -5,8 +5,8 @@ kind: Job
 metadata:
   name: {{ include "litellm.fullname" . }}-migrations
   annotations:
-    argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/hook-delete-policy: Never # keep this resource so we can debug status on ArgoCD
+    # argocd.argoproj.io/hook: PreSync
+    # argocd.argoproj.io/hook-delete-policy: Never # keep this resource so we can debug status on ArgoCD
     checksum/config: {{ toYaml .Values | sha256sum }}
 spec:
   template:
