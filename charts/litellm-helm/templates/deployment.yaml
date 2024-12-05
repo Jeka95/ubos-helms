@@ -38,6 +38,8 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default (printf "main-%s" .Chart.AppVersion) }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
+            - name: STORE_MODEL_IN_DB
+              value: "True"
             - name: HOST
               value: "{{ .Values.listen | default "0.0.0.0" }}"
             - name: PORT
