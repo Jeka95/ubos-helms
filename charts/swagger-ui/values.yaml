@@ -1,33 +1,83 @@
-image:
-  repository: swaggerapi/swagger-ui
-  tag: latest
-  pullPolicy: IfNotPresent
+# Default values for swagger-ui.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
 
 replicaCount: 1
-nodeSelector: {}
-tolerations: []
+
+image:
+  repository: swaggerapi/swagger-ui
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+podAnnotations: {}
+
+podSecurityContext:
+  {}
+  # fsGroup: 2000
+
+securityContext:
+  {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
 
 service:
+  # -- Either ClusterIP, NodePort or LoadBalancer.
+  # See [https://kubernetes.io/docs/concepts/services-networking/service/](https://kubernetes.io/docs/concepts/services-networking/service/)
   type: ClusterIP
+  # -- Port where the service will be exposed
   port: 80
+  # -- Annotations for the service.
+  # See AWS, see [https://kubernetes.io/docs/concepts/services-networking/service/#ssl-support-on-aws](https://kubernetes.io/docs/concepts/services-networking/service/#ssl-support-on-aws)
+  # For Azure, see [https://kubernetes-sigs.github.io/cloud-provider-azure/topics/loadbalancer/#loadbalancer-annotations](https://kubernetes-sigs.github.io/cloud-provider-azure/topics/loadbalancer/#loadbalancer-annotations)
+  annotations: {}
 
 ingress:
-  enabled: true
-  className: "nginx"
-  annotations: {}
+  enabled: false
+  className: ""
+  annotations:
+    {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: swagger-ui.local
+    - host: swagger-ui.some-pharma-company.com
       paths:
         - path: /
-          pathType: Prefix
+          pathType: ImplementationSpecific
+  tls: []
 
-urls:
-  - name: "Provider API"
-    url: "https://provider.platform.ubos.tech/provider/http-api/swagger.json"
-  - name: "Platform API"
-    url: "https://platform.ubos.tech/api/http-api/swagger.json"
+resources: {}
 
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
 auth:
   enabled: true
   username: admin
   password: admin123
+config:
+  swaggerLayout: "BaseLayout"
+  swaggerUrls:
+    - name: "Provider API"
+      url: "https://provider.platform.ubos.tech/provider/http-api/swagger.json"
+    - name: "Platform API"
+      url: "https://platform.ubos.tech/api/http-api/swagger.json"
