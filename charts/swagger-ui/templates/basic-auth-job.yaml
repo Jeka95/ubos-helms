@@ -12,14 +12,13 @@ spec:
       restartPolicy: Never
       containers:
         - name: htpasswd-generator
-          image: lachlanevenson/k8s-kubectl:v1.30.0
+          image: bitnami/kubectl:latest
           command: ["/bin/sh", "-c"]
           args:
             - |
-              echo "🔐 Creating htpasswd for user '{{ .Values.auth.username }}'"
-              apk add --no-cache apache2-utils
+              echo "🔐 Installing apache2-utils and generating htpasswd"
+              apk update && apk add --no-cache apache2-utils
               htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth
-              echo "📦 Creating secret '{{ include "swagger-ui.fullname" . }}-basic-auth'"
               kubectl create secret generic {{ include "swagger-ui.fullname" . }}-basic-auth \
                 --from-file=auth=/auth/auth \
                 -n {{ .Release.Namespace }} \
