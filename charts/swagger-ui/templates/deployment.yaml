@@ -21,3 +21,9 @@ spec:
           env:
             - name: URLS
               value: '{{ toJson .Values.urls }}'
+
+      nodeSelector:
+        {{- toYaml .Values.nodeSelector | nindent 8 }}
+
+      tolerations:
+        {{- toYaml .Values.tolerations | nindent 8 }}
