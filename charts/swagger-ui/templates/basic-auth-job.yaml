@@ -3,8 +3,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: {{ include "swagger-ui.fullname" . }}-generate-auth
-  labels:
-    {{- include "swagger-ui.labels" . | nindent 4 }}
   annotations:
     "helm.sh/hook": pre-install
     "helm.sh/hook-delete-policy": before-hook-creation
@@ -14,14 +12,14 @@ spec:
       restartPolicy: Never
       containers:
         - name: htpasswd-generator
-          image: bitnami/kubectl:latest
+          image: lachlanevenson/k8s-kubectl:v1.30.0
           command: ["/bin/sh", "-c"]
           args:
             - |
-              apt-get update && apt-get install -y apache2-utils;
-              echo "🔐 Creating htpasswd entry for user '{{ .Values.auth.username }}'";
-              htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth;
-              echo "📦 Applying secret '{{ include "swagger-ui.fullname" . }}-basic-auth'";
+              echo "🔐 Creating htpasswd for user '{{ .Values.auth.username }}'"
+              apk add --no-cache apache2-utils
+              htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth
+              echo "📦 Creating secret '{{ include "swagger-ui.fullname" . }}-basic-auth'"
               kubectl create secret generic {{ include "swagger-ui.fullname" . }}-basic-auth \
                 --from-file=auth=/auth/auth \
                 -n {{ .Release.Namespace }} \
