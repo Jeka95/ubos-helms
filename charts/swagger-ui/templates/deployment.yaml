@@ -46,7 +46,7 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
-          - name: URLS
+          - name: urls
             value: '{{ toJson .Values.config.swaggerUrls }}'
           - name: LAYOUT
             value: {{ .Values.config.swaggerLayout }}
