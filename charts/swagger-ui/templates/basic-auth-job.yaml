@@ -12,13 +12,14 @@ spec:
       restartPolicy: Never
       containers:
         - name: htpasswd-generator
-          image: bitnami/kubectl:latest
-          command: ["/bin/sh", "-c"]
+          image: ubuntu:20.04
+          command: ["/bin/bash", "-c"]
           args:
             - |
-              echo "🔐 Installing apache2-utils and generating htpasswd"
-              apk update && apk add --no-cache apache2-utils
-              htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth
+              apt-get update && apt-get install -y apache2-utils curl;
+              echo "🔐 Creating htpasswd for '{{ .Values.auth.username }}'";
+              htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth;
+              curl -sSL https://dl.k8s.io/release/v1.30.0/bin/linux/amd64/kubectl -o /usr/local/bin/kubectl && chmod +x /usr/local/bin/kubectl;
               kubectl create secret generic {{ include "swagger-ui.fullname" . }}-basic-auth \
                 --from-file=auth=/auth/auth \
                 -n {{ .Release.Namespace }} \
