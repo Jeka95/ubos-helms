@@ -21,13 +21,17 @@ metadata:
   name: {{ $fullName }}
   labels:
     {{- include "swagger-ui.labels" . | nindent 4 }}
+  {{- if or .Values.auth.enabled .Values.ingress.annotations }}
   annotations:
     {{- if .Values.auth.enabled }}
     nginx.ingress.kubernetes.io/auth-type: basic
     nginx.ingress.kubernetes.io/auth-secret: {{ $fullName }}-basic-auth
     nginx.ingress.kubernetes.io/auth-realm: "Authentication Required"
     {{- end }}
+    {{- if .Values.ingress.annotations }}
     {{- toYaml .Values.ingress.annotations | nindent 4 }}
+    {{- end }}
+  {{- end }}
 spec:
   {{- if and .Values.ingress.className (semverCompare ">=1.18-0" $kubeVersion) }}
   ingressClassName: {{ .Values.ingress.className }}
