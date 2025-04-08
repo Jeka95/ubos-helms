@@ -3,9 +3,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: {{ include "swagger-ui.fullname" . }}-generate-auth
-  annotations:
-    "helm.sh/hook": pre-install
-    "helm.sh/hook-delete-policy": before-hook-creation
 spec:
   template:
     spec:
