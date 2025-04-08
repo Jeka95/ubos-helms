@@ -1,0 +1,36 @@
+{{- if .Values.auth.enabled }}
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "swagger-ui.fullname" . }}-generate-auth
+  labels:
+    {{- include "swagger-ui.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": pre-install
+    "helm.sh/hook-delete-policy": before-hook-creation
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: htpasswd-generator
+          image: alpine:3.18
+          command: ["/bin/sh", "-c"]
+          args:
+            - |
+              apk add --no-cache apache2-utils curl;
+              echo "🔐 Creating htpasswd entry for user '{{ .Values.auth.username }}'";
+              htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth;
+              echo "📦 Applying secret '{{ include "swagger-ui.fullname" . }}-basic-auth'";
+              kubectl create secret generic {{ include "swagger-ui.fullname" . }}-basic-auth \
+                --from-file=auth=/auth/auth \
+                -n {{ .Release.Namespace }} \
+                --dry-run=client -o yaml | kubectl apply -f -
+          volumeMounts:
+            - name: auth-volume
+              mountPath: /auth
+      volumes:
+        - name: auth-volume
+          emptyDir: {}
+      serviceAccountName: {{ include "swagger-ui.serviceAccountName" . }}
+{{- end }}
