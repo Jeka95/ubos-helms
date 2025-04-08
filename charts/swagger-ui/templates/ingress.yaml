@@ -25,9 +25,7 @@ metadata:
     nginx.ingress.kubernetes.io/auth-secret: {{ $fullName }}-basic-auth
     nginx.ingress.kubernetes.io/auth-realm: "Authentication Required"
     {{- end }}
-    {{- with .Values.ingress.annotations }}
     {{- toYaml . | nindent 4 }}
-    {{- end }}
 spec:
   {{- if and .Values.ingress.className (semverCompare ">=1.18-0" .Capabilities.KubeVersion.GitVersion) }}
   ingressClassName: {{ .Values.ingress.className }}
