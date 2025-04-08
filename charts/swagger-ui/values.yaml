@@ -1,0 +1,31 @@
+# image:
+#   repository: swaggerapi/swagger-ui
+#   tag: latest
+#   pullPolicy: IfNotPresent
+
+# replicaCount: 1
+
+# service:
+#   type: ClusterIP
+#   port: 80
+
+# ingress:
+#   enabled: true
+#   className: "nginx"
+#   annotations: {}
+#   hosts:
+#     - host: swagger-ui.local
+#       paths:
+#         - path: /
+#           pathType: Prefix
+
+# urls:
+#   - name: "Provider API"
+#     url: "https://provider.platform.ubos.tech/provider/http-api/swagger.json"
+#   - name: "Platform API"
+#     url: "https://platform.ubos.tech/api/http-api/swagger.json"
+
+# auth:
+#   enabled: true
+#   username: admin
+#   password: admin123

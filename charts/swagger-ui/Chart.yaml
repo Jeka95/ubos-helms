@@ -1,0 +1,5 @@
+apiVersion: v2
+name: swagger-ui
+description: A simple Swagger UI deployment with multiple APIs
+version: 0.1.0
+appVersion: "1.0"
