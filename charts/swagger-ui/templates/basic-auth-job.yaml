@@ -14,11 +14,11 @@ spec:
       restartPolicy: Never
       containers:
         - name: htpasswd-generator
-          image: alpine:3.18
+          image: bitnami/kubectl:latest
           command: ["/bin/sh", "-c"]
           args:
             - |
-              apk add --no-cache apache2-utils curl;
+              apt-get update && apt-get install -y apache2-utils;
               echo "🔐 Creating htpasswd entry for user '{{ .Values.auth.username }}'";
               htpasswd -nb {{ .Values.auth.username }} {{ .Values.auth.password }} > /auth/auth;
               echo "📦 Applying secret '{{ include "swagger-ui.fullname" . }}-basic-auth'";
