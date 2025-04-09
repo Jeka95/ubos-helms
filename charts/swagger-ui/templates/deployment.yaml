@@ -45,26 +45,14 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          env:
-        - name: SWAGGER_JSON
-          value: |
-            window.onload = function() {
-              window.ui = SwaggerUIBundle({
-                dom_id: '#swagger-ui',
-                urls: {{ toJson .Values.swaggerui.config.urls }},
-                presets: [
-                  SwaggerUIBundle.presets.apis,
-                  SwaggerUIStandalonePreset
-                ],
-                layout: "StandaloneLayout"
-              });
-            }
-          - name: urls
-            value: '{{ toJson .Values.config.swaggerUrls }}'
-          - name: LAYOUT
-            value: {{ .Values.config.swaggerLayout }}
-
-            
+          volumeMounts:
+            - name: config
+              mountPath: /usr/share/nginx/html/swagger-config.yaml
+              subPath: swagger-config.yaml
+      volumes:
+        - name: config
+          configMap:
+            name: swagger-config
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
