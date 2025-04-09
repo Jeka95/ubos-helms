@@ -3,17 +3,10 @@ kind: ConfigMap
 metadata:
   name: swagger-config
 data:
-  swagger-config.yaml: |
+  swagger-config.json: |
     {
-      "urls": [
-        {
-          "url": "https://provider.platform.ubos.tech/provider/http-api/swagger.json",
-          "name": "Provider API"
-        },
-        {
-          "url": "https://platform.ubos.tech/api/http-api/swagger.json",
-          "name": "Platform API"
-        }
-      ],
-      "layout": "BaseLayout"
+      "urls": {{ toJson .Values.swaggerui.config.urls }},
+      "plugins": [
+        "topbar"
+      ]
     }
