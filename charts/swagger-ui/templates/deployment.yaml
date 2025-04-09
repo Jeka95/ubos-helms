@@ -46,6 +46,19 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
+        - name: SWAGGER_JSON
+          value: |
+            window.onload = function() {
+              window.ui = SwaggerUIBundle({
+                dom_id: '#swagger-ui',
+                urls: {{ toJson .Values.swaggerui.config.urls }},
+                presets: [
+                  SwaggerUIBundle.presets.apis,
+                  SwaggerUIStandalonePreset
+                ],
+                layout: "StandaloneLayout"
+              });
+            }
           - name: urls
             value: '{{ toJson .Values.config.swaggerUrls }}'
           - name: LAYOUT
