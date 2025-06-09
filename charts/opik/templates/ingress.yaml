@@ -4,7 +4,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name:  {{ include "opik.name" $ }}-{{ $key | lower }}
+  name: {{ include "opik.name" $ }}-{{ $key | lower }}
   namespace: {{ $.Release.Namespace }}
   labels:
     release: {{ $.Release.Name }}
@@ -19,14 +19,14 @@ metadata:
     alb.ingress.kubernetes.io/ssl-policy: {{ $value.ingress.ssl_policy }}
   {{- end }}
 spec:
-  ingressClassName: {{ default "alb" $value.ingress.ingressClassName }}  
+  ingressClassName: {{ default "alb" $value.ingress.ingressClassName }}
   {{- if $value.ingress.tls }}
   tls:
-    - hosts:
-      - {{ $value.ingress.host }}
-      {{- if $value.ingress.tls.secretName }}
+  - hosts:
+    - {{ $value.ingress.host }}
+    {{- if $value.ingress.tls.secretName }}
     secretName: {{ $value.ingress.tls.secretName }}
-      {{- end }}
+    {{- end }}
   {{- end }}
   rules:
   {{- range $value.ingress.hosts }}
@@ -54,6 +54,6 @@ spec:
           {{- end }}
       {{- end }}
   {{- end }}
-  
+
 {{- end }}
 {{- end }}
