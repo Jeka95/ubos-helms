@@ -1,0 +1,21 @@
+dependencies:
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 11.1.9
+- name: zookeeper
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.12.1
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 18.19.2
+- name: minio
+  repository: https://charts.bitnami.com/bitnami
+  version: 15.0.7
+- name: altinity-clickhouse-operator
+  repository: https://docs.altinity.com/clickhouse-operator/
+  version: 0.23.7
+- name: common
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 2.31.1
+digest: sha256:6c24a6d14ce821f663de67ea85d97fbef55ac3b28177cb6c12d4b28114fce32b
+generated: "2025-06-09T10:54:19.6540348+03:00"
