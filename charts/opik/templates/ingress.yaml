@@ -22,11 +22,13 @@ spec:
   ingressClassName: {{ default "alb" $value.ingress.ingressClassName }}
   {{- if $value.ingress.tls }}
   tls:
-  - hosts:
-    - {{ $value.ingress.host }}
-    {{- if $value.ingress.tls.secretName }}
-    secretName: {{ $value.ingress.tls.secretName }}
-    {{- end }}
+  {{- range $tls := $value.ingress.tls }}
+    - hosts:
+      {{- range $host := $tls.hosts }}
+        - {{ $host | quote }}
+      {{- end }}
+      secretName: {{ $tls.secretName }}
+  {{- end }}
   {{- end }}
   rules:
   {{- range $value.ingress.hosts }}
