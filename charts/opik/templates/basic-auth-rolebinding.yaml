@@ -1,0 +1,15 @@
+{{- if .Values.basicAuth.enabled }}
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: {{ include "opik.fullname" . }}-basic-auth-binding
+  namespace: {{ .Release.Namespace }}
+subjects:
+  - kind: ServiceAccount
+    name: default
+    namespace: {{ .Release.Namespace }}
+roleRef:
+  kind: Role
+  name: {{ include "opik.fullname" . }}-basic-auth-role
+  apiGroup: rbac.authorization.k8s.io
+{{- end }}
