@@ -23,7 +23,7 @@ spec:
               echo "🔐 Creating htpasswd for '{{ .Values.basicAuth.user }}'";
               htpasswd -nb {{ .Values.basicAuth.user }} {{ .Values.basicAuth.password }} > /auth/auth;
               curl -sSL https://dl.k8s.io/release/v1.30.0/bin/linux/amd64/kubectl -o /usr/local/bin/kubectl && chmod +x /usr/local/bin/kubectl;
-              kubectl create secret generic {{ include "opik.fullname" . }}-basic-auth \
+              kubectl create secret generic {{ include "opik.name" . }}-basic-auth \
                 --from-file=auth=/auth/auth \
                 -n {{ .Release.Namespace }} \
                 --dry-run=client -o yaml | kubectl apply -f -
