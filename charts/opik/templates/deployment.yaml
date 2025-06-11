@@ -130,15 +130,25 @@ spec:
           volumeMounts:
             {{- toYaml . | nindent 12 }}
           {{- end }}
+          {{- if eq $key "frontend" }}
+            - mountPath: /etc/nginx/.htpasswd
+              name: basic-auth
+              subPath: auth
+          {{- end }}
           {{- with $value.lifecycle }}
           lifecycle:
             {{- toYaml . | nindent 12 }}
           {{- end }}
 
-      {{- with $value.volumes }}
       volumes:
+        {{- with $value.volumes }}
         {{- toYaml . | nindent 8 }}
-      {{- end }}
+        {{- end }}
+        {{- if eq $key "frontend" }}
+        - name: basic-auth
+          secret:
+            secretName: {{ include "opik.name" $ }}-basic-auth
+        {{- end }}
       {{- with $value.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
@@ -147,7 +157,6 @@ spec:
       affinity:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      
       {{- with $value.tolerations }}
       tolerations:
         {{- toYaml . | nindent 8 }}
