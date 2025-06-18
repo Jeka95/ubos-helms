@@ -1,0 +1,10 @@
+apiVersion: v2
+description: Custom service for run docker container
+name: CustomService
+icon: https://ubos.tech/wp-content/uploads/2025/06/custom-jpg.webp
+version: 0.0.2
+annotations:
+  repository: https://jeka95.github.io/ubos-helms/
+maintainers:
+  - name: UBOS
+    email: ubos@ubos.tech
