@@ -27,21 +27,24 @@ spec:
               done
               echo "✅ Running initialization script..."
               bundle exec rails runner " \
-                token_value = '{{ .Values.admin.token }}'; \
+                user_token = '{{ .Values.admin.token }}'; \
+                app_token = '{{ .Values.admin.app_token }}'; \
                 u = User.find_or_create_by!(email: '{{ .Values.admin.email }}') do |usr| \
                   usr.name = '{{ .Values.admin.name }}'; \
                   usr.password = '{{ .Values.admin.password }}'; \
                   usr.password_confirmation = '{{ .Values.admin.password }}'; \
                   usr.confirmed_at = Time.zone.now; \
                 end; \
+                u.update!(role: :administrator); \
                 a = Account.find_or_create_by!(name: '{{ .Values.admin.account_name }}'); \
-                au = AccountUser.find_or_create_by!(user: u, account: a); \
-                au.update!(role: :administrator); \
+                AccountUser.find_or_create_by!(user: u, account: a) do |au| \
+                  au.role = 0; \
+                end; \
                 u.accounts << a unless u.accounts.include?(a); \
-                AccessToken.find_or_create_by!(token: token_value, owner: u); \
-                app = PlatformApp.find_or_create_by!(account_id: a.id, name: 'Default App'); \
-                AccessToken.find_or_create_by!(token: token_value, owner: app); \
-                puts \"✅ Super admin created with access token: #{token_value}\" \
+                AccessToken.find_or_create_by!(token: user_token, owner: u); \
+                app = PlatformApp.find_or_create_by!(name: 'Ubos Platform App'); \
+                AccessToken.find_or_create_by!(token: app_token, owner: app); \
+                puts \"✅ Admin user, platform app, and tokens created.\" \
               "
           envFrom:
             - secretRef:
