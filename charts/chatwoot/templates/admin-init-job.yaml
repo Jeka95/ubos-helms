@@ -27,7 +27,6 @@ spec:
               done
               echo "✅ Running initialization script..."
               bundle exec rails runner " \
-                user_token = '{{ .Values.admin.token }}'; \
                 app_token = '{{ .Values.admin.app_token }}'; \
                 u = User.find_or_create_by!(email: '{{ .Values.admin.email }}') do |usr| \
                   usr.name = '{{ .Values.admin.name }}'; \
@@ -35,16 +34,14 @@ spec:
                   usr.password_confirmation = '{{ .Values.admin.password }}'; \
                   usr.confirmed_at = Time.zone.now; \
                 end; \
-                u.update!(role: :administrator); \
                 a = Account.find_or_create_by!(name: '{{ .Values.admin.account_name }}'); \
                 AccountUser.find_or_create_by!(user: u, account: a) do |au| \
-                  au.role = 0; \
+                  au.role = :administrator; \
                 end; \
                 u.accounts << a unless u.accounts.include?(a); \
-                AccessToken.find_or_create_by!(token: user_token, owner: u); \
                 app = PlatformApp.find_or_create_by!(name: 'Ubos Platform App'); \
                 AccessToken.find_or_create_by!(token: app_token, owner: app); \
-                puts \"✅ Admin user, platform app, and tokens created.\" \
+                puts \"✅ Admin user and platform app with token created.\" \
               "
           envFrom:
             - secretRef:
