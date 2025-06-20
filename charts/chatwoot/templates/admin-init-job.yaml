@@ -44,7 +44,7 @@ spec:
                 existing_token.destroy if existing_token; \
                 AccessToken.create!(token: app_token, owner: app); \
                 InstallationConfig.find_or_create_by!(name: 'onboarding_complete') do |c| \
-                  c.serialized_value = { completed: true }; \
+                  c.serialized_value = ActiveSupport::HashWithIndifferentAccess.new(completed: true) \
                 end; \
                 puts \"✅ SuperAdmin, Platform App, and onboarding skipped. Token: #{app_token}\" \
               "
