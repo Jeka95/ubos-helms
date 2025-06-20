@@ -46,6 +46,7 @@ spec:
                 InstallationConfig.find_or_create_by!(name: 'onboarding_complete') do |c| \
                   c.serialized_value = ActiveSupport::HashWithIndifferentAccess.new(completed: true) \
                 end; \
+                ::Redis::Alfred.delete(::Redis::Alfred::CHATWOOT_INSTALLATION_ONBOARDING); \
                 puts \"✅ SuperAdmin, Platform App, and onboarding skipped. Token: #{app_token}\" \
               "
           envFrom:
