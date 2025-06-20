@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ template "chatwoot.fullname" . }}-web
+  name: {{ template "chatwoot.fullname" . }}-worker
   creationTimestamp: null
   labels:
     app: {{ template "chatwoot.fullname" . }}
@@ -9,12 +9,12 @@ metadata:
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
 spec:
-  replicas: {{ int .Values.web.replicaCount }}
+  replicas: {{ int .Values.worker.replicaCount }}
   selector:
     matchLabels:
       app: {{ template "chatwoot.fullname" . }}
       release: "{{ .Release.Name }}"
-      role: web
+      role: worker
   strategy: {}
   template:
     metadata:
@@ -22,7 +22,7 @@ spec:
       labels:
         app: {{ template "chatwoot.fullname" . }}
         release: "{{ .Release.Name }}"
-        role: web
+        role: worker
       annotations:
         checksum/config: {{ include (print $.Template.BasePath "/env-secret.yaml") . | sha256sum }}
         {{- with .Values.podAnnotations }}
@@ -44,14 +44,9 @@ spec:
         - args:
             - bundle
             - exec
-            - rails
-            - s
-            - -p
-            - {{ .Values.services.internalPort | quote}}
-            - -b
-            - 0.0.0.0
-          command:
-            - docker/entrypoints/rails.sh
+            - sidekiq
+            - -C
+            - config/sidekiq.yml
           env:
           {{- if .Values.postgresql.auth.existingSecret }}
           - name: POSTGRES_PASSWORD
@@ -75,14 +70,12 @@ spec:
                 name: {{ .Values.existingEnvSecret }}
           {{- end }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          name: {{ .Chart.Name }}-web
-          ports:
-            - containerPort: {{ int .Values.services.internalPort }}
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
-          {{- with .Values.web.resources }}
+          name: {{ .Chart.Name }}-workers
+          {{- with .Values.worker.resources }}
           resources:
             {{- toYaml . | nindent 12 }}
             {{- end }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           volumeMounts:
             - name: cache
               mountPath: /app/tmp
