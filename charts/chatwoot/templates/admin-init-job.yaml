@@ -43,7 +43,10 @@ spec:
                 existing_token = AccessToken.find_by(owner: app); \
                 existing_token.destroy if existing_token; \
                 AccessToken.create!(token: app_token, owner: app); \
-                puts \"✅ SuperAdmin and Platform App created with token: #{app_token}\" \
+                InstallationConfig.find_or_create_by!(name: 'onboarding_complete') do |c| \
+                  c.serialized_value = { completed: true }; \
+                end; \
+                puts \"✅ SuperAdmin, Platform App, and onboarding skipped. Token: #{app_token}\" \
               "
           envFrom:
             - secretRef:
