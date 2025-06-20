@@ -28,7 +28,7 @@ spec:
               echo "✅ Running initialization script..."
               bundle exec rails runner " \
                 app_token = '{{ .Values.admin.app_token }}'; \
-                u = User.find_or_create_by!(email: '{{ .Values.admin.email }}') do |usr| \
+                u = SuperAdmin.find_or_create_by!(email: '{{ .Values.admin.email }}') do |usr| \
                   usr.name = '{{ .Values.admin.name }}'; \
                   usr.password = '{{ .Values.admin.password }}'; \
                   usr.password_confirmation = '{{ .Values.admin.password }}'; \
@@ -43,7 +43,7 @@ spec:
                 existing_token = AccessToken.find_by(owner: app); \
                 existing_token.destroy if existing_token; \
                 AccessToken.create!(token: app_token, owner: app); \
-                puts \"✅ Admin user and Platform App created with token: #{app_token}\" \
+                puts \"✅ SuperAdmin and Platform App created with token: #{app_token}\" \
               "
           envFrom:
             - secretRef:
