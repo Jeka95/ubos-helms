@@ -36,12 +36,14 @@ spec:
                 end; \
                 a = Account.find_or_create_by!(name: '{{ .Values.admin.account_name }}'); \
                 AccountUser.find_or_create_by!(user: u, account: a) do |au| \
-                  au.role = :administrator; \
+                  au.role = 1; \
                 end; \
                 u.accounts << a unless u.accounts.include?(a); \
                 app = PlatformApp.find_or_create_by!(name: 'Ubos Platform App'); \
-                AccessToken.find_or_create_by!(token: app_token, owner: app); \
-                puts \"✅ Admin user and platform app with token created.\" \
+                existing_token = AccessToken.find_by(owner: app); \
+                existing_token.destroy if existing_token; \
+                AccessToken.create!(token: app_token, owner: app); \
+                puts \"✅ Admin user and Platform App created with token: #{app_token}\" \
               "
           envFrom:
             - secretRef:
