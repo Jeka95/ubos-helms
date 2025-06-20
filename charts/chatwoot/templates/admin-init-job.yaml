@@ -33,11 +33,11 @@ spec:
                   usr.password = '{{ .Values.admin.password }}'; \
                   usr.password_confirmation = '{{ .Values.admin.password }}'; \
                   usr.confirmed_at = Time.zone.now; end; \
+                u.add_role(:administrator); \
                 a = Account.find_or_create_by!(name: '{{ .Values.admin.account_name }}'); \
                 u.accounts << a unless u.accounts.include?(a); \
-                AccountUser.find_by(account_id: a.id, user_id: u.id)&.update!(role: :administrator); \
-                AccessToken.find_or_create_by!(token: token_value, owner: u, account_id: a.id, name: 'admin-token'); \
-                InstallationConfig.upsert({ name: 'installation_name', serialized_value: 'Ubos Chat', created_at: Time.zone.now, updated_at: Time.zone.now }, unique_by: :name); \
+                AccessToken.find_or_create_by!(token: token_value, owner: u, name: 'admin-token'); \
+                Onboarding::ActionService.new(account: a).skip_onboarding!; \
                 puts \"✅ Access token created: #{token_value}\" \
               "
           envFrom:
