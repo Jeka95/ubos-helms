@@ -35,12 +35,13 @@ spec:
                   usr.confirmed_at = Time.zone.now; \
                 end; \
                 a = Account.find_or_create_by!(name: '{{ .Values.admin.account_name }}'); \
-                AccountUser.find_or_create_by!(user: u, account: a) do |au| \
-                  au.role = 0; \
-                end; \
+                au = AccountUser.find_or_create_by!(user: u, account: a); \
+                au.update!(role: :administrator); \
                 u.accounts << a unless u.accounts.include?(a); \
                 AccessToken.find_or_create_by!(token: token_value, owner: u); \
-                puts \"✅ Access token created: #{token_value}\" \
+                app = PlatformApp.find_or_create_by!(account_id: a.id, name: 'Default App'); \
+                AccessToken.find_or_create_by!(token: token_value, owner: app); \
+                puts \"✅ Super admin created with access token: #{token_value}\" \
               "
           envFrom:
             - secretRef:
