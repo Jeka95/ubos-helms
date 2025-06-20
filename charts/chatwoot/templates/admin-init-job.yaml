@@ -32,8 +32,9 @@ spec:
                   usr.name = '{{ .Values.admin.name }}'; \
                   usr.password = '{{ .Values.admin.password }}'; \
                   usr.password_confirmation = '{{ .Values.admin.password }}'; \
-                  usr.confirmed_at = Time.zone.now; end; \
-                u.add_role(:administrator); \
+                  usr.confirmed_at = Time.zone.now; \
+                end; \
+                u.update!(role: 'administrator'); \
                 a = Account.find_or_create_by!(name: '{{ .Values.admin.account_name }}'); \
                 u.accounts << a unless u.accounts.include?(a); \
                 AccessToken.find_or_create_by!(token: token_value, owner: u, name: 'admin-token'); \
