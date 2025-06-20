@@ -39,8 +39,7 @@ spec:
                   au.role = 0; \
                 end; \
                 u.accounts << a unless u.accounts.include?(a); \
-                AccessToken.find_or_create_by!(token: token_value, owner: u, owner_type: 'User'); \
-                Onboarding::ActionService.new(account: a).skip_onboarding!; \
+                AccessToken.find_or_create_by!(token: token_value, owner: u); \
                 puts \"✅ Access token created: #{token_value}\" \
               "
           envFrom:
