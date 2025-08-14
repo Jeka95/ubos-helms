@@ -2,8 +2,8 @@
 Expand the name of the chart.
 */}}
 {{- define "chatwoot.name" -}}
-{{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" -}}
-{{- end -}}
+{{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
+{{- end }}
 
 {{/*
 Create a default fully qualified app name.
@@ -62,141 +62,24 @@ Create the name of the service account to use
 {{- end }}
 
 
-{{- define "chatwoot.postgresql.fullname" -}}
-{{- if .Values.postgresql.fullnameOverride -}}
-{{- .Values.postgresql.fullnameOverride | trunc 63 | trimSuffix "-" -}}
-{{- else -}}
-{{- $name := default .Chart.Name .Values.postgresql.nameOverride -}}
-{{- if contains $name .Release.Name -}}
-{{- .Release.Name | trunc 63 | trimSuffix "-" -}}
-{{- else -}}
-{{- printf "%s-%s" .Release.Name "chatwoot-postgresql" | trunc 63 | trimSuffix "-" -}}
-{{- end -}}
-{{- end -}}
-{{- end -}}
+{{- define "rails.labels" }}
+{{- include "chatwoot.labels" . }}
+component: rails
+name: {{ .Values.services.name}}
+version: {{ .Values.image.tag }}
+{{- end }}
 
-{{- define "chatwoot.redis.fullname" -}}
-{{- if .Values.redis.fullnameOverride -}}
-{{- .Values.redis.fullnameOverride | trunc 63 | trimSuffix "-" -}}
-{{- else -}}
-{{- $name := default .Chart.Name .Values.redis.nameOverride -}}
-{{- if contains $name .Release.Name -}}
-{{- .Release.Name | trunc 63 | trimSuffix "-" -}}
-{{- else -}}
-{{- printf "%s-%s" .Release.Name "chatwoot-redis" | trunc 63 | trimSuffix "-" -}}
-{{- end -}}
-{{- end -}}
-{{- end -}}
+{{- define "sidekiq.labels" }}
+{{- include "chatwoot.labels" . }}
+component: rails
+name: sidekiq
+{{- end }}
 
-
-{{/*
-Set postgres host
-*/}}
-{{- define "chatwoot.postgresql.host" -}}
-{{- if .Values.postgresql.enabled -}}
-{{- template "chatwoot.postgresql.fullname" . -}}
-{{- else -}}
-{{- .Values.postgresql.postgresqlHost -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set postgres secret
-*/}}
-{{- define "chatwoot.postgresql.secret" -}}
-{{- if .Values.postgresql.enabled -}}
-{{- template "chatwoot.postgresql.fullname" . -}}
-{{- else -}}
-{{- template "chatwoot.fullname" . -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set postgres secretKey
-*/}}
-{{- define "chatwoot.postgresql.secretKey" -}}
-{{- if .Values.postgresql.enabled -}}
-"postgresql-password"
-{{- else -}}
-{{- default "postgresql-password" .Values.postgresql.auth.secretKeys.adminPasswordKey | quote -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set postgres port
-*/}}
-{{- define "chatwoot.postgresql.port" -}}
-{{- if .Values.postgresql.enabled -}}
-    5432
-{{- else -}}
-{{- default 5432 .Values.postgresql.postgresqlPort -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set redis host
-*/}}
-{{- define "chatwoot.redis.host" -}}
-{{- if .Values.redis.enabled -}}
-{{- template "chatwoot.redis.fullname" . -}}-master
-{{- else -}}
-{{- .Values.redis.host }}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set redis secret
-*/}}
-{{- define "chatwoot.redis.secret" -}}
-{{- if .Values.redis.enabled -}}
-{{- template "chatwoot.redis.fullname" . -}}
-{{- else -}}
-{{- template "chatwoot.fullname" . -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set redis secretKey
-*/}}
-{{- define "chatwoot.redis.secretKey" -}}
-{{- if .Values.redis.enabled -}}
-"redis-password"
-{{- else -}}
-{{- default "redis-password" .Values.redis.existingSecretPasswordKey | quote -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set redis port
-*/}}
-{{- define "chatwoot.redis.port" -}}
-{{- if .Values.redis.enabled -}}
-    6379
-{{- else -}}
-{{- default 6379 .Values.redis.port -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set redis password
-*/}}
-{{- define "chatwoot.redis.password" -}}
-{{- if .Values.redis.enabled -}}
-{{- default "redis" .Values.redis.auth.password -}}
-{{- else -}}
-{{- default "redis" .Values.redis.password -}}
-{{- end -}}
-{{- end -}}
-
-{{/*
-Set redis URL
-*/}}
-{{- define "chatwoot.redis.url" -}}
-{{- if .Values.redis.enabled -}}
-    redis://:{{ .Values.redis.auth.password }}@{{ template "chatwoot.redis.host" . }}:{{ template "chatwoot.redis.port" . }}
-{{- else if .Values.env.REDIS_TLS -}}
-    rediss://:$(REDIS_PASSWORD)@{{ .Values.redis.host }}:{{ .Values.redis.port }}
-{{- else -}}
-    redis://:$(REDIS_PASSWORD)@{{ .Values.redis.host }}:{{ .Values.redis.port }}
-{{- end -}}
-{{- end -}}
+{{- define "migration-job.labels" }}
+{{- include "chatwoot.labels" . }}
+component: db-migration
+name: db-migration
+version: {{ .Values.image.tag}}
+chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
+release: "{{ .Release.Name }}"
+{{- end }}
