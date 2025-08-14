@@ -1,9 +1,8 @@
-{{- if .Values.web.hpa.enabled -}}
+{{- if .Values.worker.hpa.enabled -}}
 apiVersion: {{ .Values.autoscaling.apiVersion }}
-
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{ template "chatwoot.fullname" . }}-web
+  name: {{ template "chatwoot.fullname" . }}-worker
   labels:
     app: {{ template "chatwoot.fullname" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
@@ -13,14 +12,14 @@ spec:
   scaleTargetRef:
     kind: Deployment
     apiVersion: apps/v1
-    name: {{ template "chatwoot.fullname" . }}-web
-  minReplicas: {{ .Values.web.hpa.minpods }}
-  maxReplicas: {{ .Values.web.hpa.maxpods }}
+    name: {{ template "chatwoot.fullname" . }}-worker
+  minReplicas: {{ .Values.worker.hpa.minpods }}
+  maxReplicas: {{ .Values.worker.hpa.maxpods }}
   metrics:
   - type: Resource
     resource:
       name: cpu
       target:
         type: Utilization
-        averageUtilization: {{ .Values.web.hpa.cputhreshold }}
+        averageUtilization: {{ .Values.worker.hpa.cputhreshold }}
   {{- end }}

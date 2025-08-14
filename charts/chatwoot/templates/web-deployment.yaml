@@ -1,45 +1,27 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
-  name: {{ template "chatwoot.fullname" . }}-web
-  creationTimestamp: null
+  name: "{{ include "chatwoot.fullname" . }}-test-connection"
   labels:
-    {{- include "rails.labels" . | nindent 4}}
+    app: {{ template "chatwoot.fullname" . }}
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
+  annotations:
+    "helm.sh/hook": test
+    "helm.sh/hook-delete-policy": hook-succeeded  
 spec:
-  replicas: {{ int .Values.web.replica }}
-  selector:
-    matchLabels:
-      {{- include "rails.labels" . | nindent 6 }}
-  strategy: {}
-  template:
-    metadata:
-
-      creationTimestamp: null
-      labels:
-        {{- include "rails.labels" . | nindent 8 }}
-    spec:
-      containers:
-        - args: 
-            - bundle
-            - exec
-            - rails
-            - s
-            - -p
-            - {{ .Values.services.internlPort | quote}}
-            - -b
-            - 0.0.0.0
-            
-          command:
-            - docker/entrypoints/rails.sh
-          env:
-            {{- include "chatwoot.environ" .  }}
-          image: "{{ .Values.image.repository}}:{{ .Values.image.tag}}"
-          name: {{ .Chart.Name }}-web
-          ports:
-            - containerPort: {{ int .Values.services.internlPort }}
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
-          {{- with .Values.resources }}
-          resources:
-            {{- toYaml . | nindent 12 }}
-            {{- end }}
-status: {}
+  {{- with .Values.tolerations }}
+  tolerations:
+  {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- if .Values.nodeSelector }}
+  nodeSelector: {{- include "common.tplvalues.render" (dict "value" .Values.nodeSelector "context" $) | nindent 4 }}
+  {{- end }}
+  containers:
+    - name: wget
+      image: busybox
+      imagePullPolicy: IfNotPresent
+      command: ['wget']
+      args: ['{{ include "chatwoot.fullname" . }}:{{ .Values.services.targetPort }}']
+  restartPolicy: Never
