@@ -1,26 +1,25 @@
-{{- if .Values.web.hpa.enabled -}}
-apiVersion: {{ .Values.autoscaling.apiVersion }}
-
-kind: HorizontalPodAutoscaler
+apiVersion: v1
+kind: Service
 metadata:
-  name: {{ template "chatwoot.fullname" . }}-web
+  name: {{ template "chatwoot.fullname" . }}
+  creationTimestamp: null
   labels:
     app: {{ template "chatwoot.fullname" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
+  {{- with .Values.services.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+    {{- end }}
 spec:
-  scaleTargetRef:
-    kind: Deployment
-    apiVersion: apps/v1
-    name: {{ template "chatwoot.fullname" . }}-web
-  minReplicas: {{ .Values.web.hpa.minpods }}
-  maxReplicas: {{ .Values.web.hpa.maxpods }}
-  metrics:
-  - type: Resource
-    resource:
-      name: cpu
-      target:
-        type: Utilization
-        averageUtilization: {{ .Values.web.hpa.cputhreshold }}
-  {{- end }}
+  ports:
+    - name: {{ .Values.services.name | quote}}
+      port: {{ int .Values.services.internalPort }}
+      targetPort: {{ int .Values.services.targetPort }}
+  type: {{ .Values.services.type }}
+  selector:
+    app: {{ template "chatwoot.fullname" . }}
+    role: web
+status:
+  loadBalancer: {}
