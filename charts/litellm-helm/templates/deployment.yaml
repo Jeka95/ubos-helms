@@ -91,7 +91,10 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: {{ include "redis.secretName" .Subcharts.redis }}
-                  key: {{include "redis.secretPasswordKey" .Subcharts.redis }}
+                  key: {{ include "redis.secretPasswordKey" .Subcharts.redis }}
+            {{- end }}
+            {{- if .Values.env }}
+            {{- toYaml .Values.env | nindent 12 }}
             {{- end }}
           envFrom:
           {{- range .Values.environmentSecrets }}
