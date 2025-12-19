@@ -222,35 +222,41 @@
 #         }'
 #     upstreamConfig: {}
 
-# mysql:
-#   enabled: true
-#   fullnameOverride: opik-mysql
-#   auth:
-#     rootPassword: "opik"
-#   initdbScripts:
-#     createdb.sql: |-
-#       CREATE DATABASE IF NOT EXISTS opik DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
-#       CREATE USER IF NOT EXISTS 'opik'@'%' IDENTIFIED BY 'opik';
-#       GRANT ALL ON `opik`.* TO 'opik'@'%';
-#       FLUSH PRIVILEGES;
+mysql:
+  enabled: true
+  fullnameOverride: opik-mysql
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/mysql
+  auth:
+    rootPassword: "opik"
+  initdbScripts:
+    createdb.sql: |-
+      CREATE DATABASE IF NOT EXISTS opik DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+      CREATE USER IF NOT EXISTS 'opik'@'%' IDENTIFIED BY 'opik';
+      GRANT ALL ON `opik`.* TO 'opik'@'%';
+      FLUSH PRIVILEGES;
 
-# minio:
-#   enabled: true
-#   mode: standalone
-#   disableWebUI: true
-#   persistence:
-#     enabled: true
-#     size: 30Gi
-#   auth:
-#     rootUser: "THAAIOSFODNN7EXAMPLE"
-#     rootPassword: "LESlrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
-#   provisioning:
-#     enabled: true
-#     extraCommands:
-#       - mc alias set s3 http://opik-minio:9000 THAAIOSFODNN7EXAMPLE LESlrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY --api S3v4
-#       - mc mb --ignore-existing s3/public
-#       - mc anonymous set download s3/public/
-#   fullnameOverride: opik-minio
+minio:
+  enabled: true
+  mode: standalone
+  disableWebUI: true
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/minio
+  persistence:
+    enabled: true
+    size: 30Gi
+  auth:
+    rootUser: "THAAIOSFODNN7EXAMPLE"
+    rootPassword: "LESlrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  provisioning:
+    enabled: true
+    extraCommands:
+      - mc alias set s3 http://opik-minio:9000 THAAIOSFODNN7EXAMPLE LESlrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY --api S3v4
+      - mc mb --ignore-existing s3/public
+      - mc anonymous set download s3/public/
+  fullnameOverride: opik-minio
 
 # redis:
 #   enabled: true
@@ -305,50 +311,53 @@
 #           \n--loadmodule ${BASEDIR}/lib/rejson.so ${REDISJSON_ARGS} \\\n--loadmodule\
 #           \ ${BASEDIR}/lib/redisbloom.so ${REDISBLOOM_ARGS}\n"
 
-# altinity-clickhouse-operator:
-#   metrics:
-#     enabled: false
-#   serviceMonitor:
-#     enabled: false
+altinity-clickhouse-operator:
+  metrics:
+    enabled: false
+  serviceMonitor:
+    enabled: false
 
-# clickhouse:
-#   enabled: true
-#   shardsCount: 1
-#   replicasCount: 1
-#   image: altinity/clickhouse-server:24.3.5.47.altinitystable
-#   storage: 30Gi
-#   logsLevel: information
-#   service:
-#     serviceTemplate: clickhouse-cluster-svc-template
-#   adminUser:
-#     useSecret:
-#       enabled: false
-#     username: opik
-#     password: opik
-#   zookeeper:
-#     host: opik-zookeeper
-#   backup:
-#     enabled: false
-#     successfulJobsHistoryLimit: 1
-#     serviceAccount:
-#       enabled: false
-#       create: true
-#       annotations: {}
-#   monitoring:
-#     enabled: false
-#     username: opikmon # readonly user
-#     password: opikmon
+clickhouse:
+  enabled: true
+  shardsCount: 1
+  replicasCount: 1
+  image: altinity/clickhouse-server:24.3.5.47.altinitystable
+  storage: 30Gi
+  logsLevel: information
+  service:
+    serviceTemplate: clickhouse-cluster-svc-template
+  adminUser:
+    useSecret:
+      enabled: false
+    username: opik
+    password: opik
+  zookeeper:
+    host: opik-zookeeper
+  backup:
+    enabled: false
+    successfulJobsHistoryLimit: 1
+    serviceAccount:
+      enabled: false
+      create: true
+      annotations: {}
+  monitoring:
+    enabled: false
+    username: opikmon # readonly user
+    password: opikmon
 
-# zookeeper:
-#   enabled: true
-#   fullnameOverride: opik-zookeeper
-#   replicaCount: 1
-#   podDisruptionBudget:
-#     enabled: true
-#   persistence:
-#     enabled: true
-#     size: "50Gi"
-#   env:
-#     ZK_HEAP_SIZE: "512M"
-#   headless:
-#     publishNotReadyAddresses: true
+zookeeper:
+  enabled: true
+  fullnameOverride: opik-zookeeper
+  image:
+    registry: docker.io
+    repository: bitnamilegacy/zookeeper
+  replicaCount: 1
+  podDisruptionBudget:
+    enabled: true
+  persistence:
+    enabled: true
+    size: "50Gi"
+  env:
+    ZK_HEAP_SIZE: "512M"
+  headless:
+    publishNotReadyAddresses: true
