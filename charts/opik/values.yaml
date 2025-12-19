@@ -235,6 +235,10 @@ minio:
   clientImage:
     registry: docker.io
     repository: bitnamilegacy/os-shell
+  volumePermissions:
+    image:
+      registry: docker.io
+      repository: bitnamilegacy/os-shell
 
 # redis:
 #   enabled: true
