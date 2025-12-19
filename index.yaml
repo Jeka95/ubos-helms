@@ -5,7 +5,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3640876+02:00"
+    created: "2025-12-19T11:26:10.4813318+02:00"
     description: Open-source vector storage system.
     digest: 696106d65a16c817f0ca0c6aae9a51ea3869ac8facd50570b2c366986a8335ee
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -20,7 +20,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3640876+02:00"
+    created: "2025-12-19T11:26:10.4807894+02:00"
     description: Open-source vector storage system.
     digest: 4a1a3025f55c7c13b90876c977e89cd5f1fe31a55d466dbfebb8b1f0ea6f43ce
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -35,7 +35,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3635623+02:00"
+    created: "2025-12-19T11:26:10.4802475+02:00"
     description: Open-source vector storage system.
     digest: 9adf2d426ef0d3eb7481c59fc9271139394e59314e2213d40f5ad3e8e0daea52
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -50,7 +50,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3630385+02:00"
+    created: "2025-12-19T11:26:10.4802475+02:00"
     description: Open-source vector storage system.
     digest: fc838c303941faa915cb1bc97522d2745f9a3ac0925933ede751835c34acd520
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -65,7 +65,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3624564+02:00"
+    created: "2025-12-19T11:26:10.4797091+02:00"
     description: Open-source vector storage system.
     digest: f0cd86849b3bc7d8fdabb739c5365b7807c4669ff6bc26109b48263f0576cb09
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -80,7 +80,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3619114+02:00"
+    created: "2025-12-19T11:26:10.4797091+02:00"
     description: Open-source vector storage system.
     digest: 4e952a2b1b093336b54daf045230b9a1c0d91b88f52bf302c91445952ad5a399
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -95,7 +95,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3613469+02:00"
+    created: "2025-12-19T11:26:10.4791797+02:00"
     description: Open-source vector storage system.
     digest: efa4bc7238490a0b9a836ba135f7295df73b120282ffb479b744fef75a38b78f
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -110,7 +110,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3607891+02:00"
+    created: "2025-12-19T11:26:10.4786435+02:00"
     description: Open-source vector storage system.
     digest: 762df978ecbb7405650787ffddff5d027e63b8d3c2af8e0a9f9300b53216e4fd
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -125,7 +125,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3607891+02:00"
+    created: "2025-12-19T11:26:10.4780991+02:00"
     description: Open-source vector storage system.
     digest: 2a73a3a8e4aa46a2d7f5de11120e8519eb5a139bdf9b41ff646d6d771a32c4b1
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -140,7 +140,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3602389+02:00"
+    created: "2025-12-19T11:26:10.4775842+02:00"
     description: Open-source vector storage system.
     digest: 710d33393b20fbb87b5e652e32937327e3c9d95c8d122abb50815efdc50440f9
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -155,7 +155,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3596878+02:00"
+    created: "2025-12-19T11:26:10.4765026+02:00"
     description: Open-source vector storage system.
     digest: 31f33e89ad06e5bd095102a68d7dc7470d810aaf7b04b605fb9e4e74808d5c98
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -170,7 +170,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.359124+02:00"
+    created: "2025-12-19T11:26:10.4759095+02:00"
     description: Open-source vector storage system.
     digest: 1d079a86dba30181ce1ba270ba940f778a4f74e0a59100f8e7c45dcc6aff10a2
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -185,7 +185,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3574907+02:00"
+    created: "2025-12-19T11:26:10.4753582+02:00"
     description: Open-source vector storage system.
     digest: de30ee9ffb4a493934ea24a7a7111587544c9b040a87854be308787d10dd4b19
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -200,7 +200,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-12-19T11:14:58.3569535+02:00"
+    created: "2025-12-19T11:26:10.4748121+02:00"
     description: Open-source vector storage system.
     digest: e9232b96549c8b1c9526aa36ccc52caf59fd73f0c2fb19ddd94b5a47c270fc1d
     icon: https://ubos.tech/wp-content/uploads/2023/11/chroma.png
@@ -215,7 +215,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3651823+02:00"
+    created: "2025-12-19T11:26:10.4818825+02:00"
     description: Custom service for run docker container
     digest: 8753ae180e9dddd2cc849d05f9cb8a1aba52f43363c6a2d898e0d4f74aa9285c
     icon: https://ubos.tech/wp-content/uploads/2025/06/custom-jpg.webp
@@ -230,7 +230,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3705921+02:00"
+    created: "2025-12-19T11:26:10.4861347+02:00"
     description: Eclipse Mosquitto
     digest: 641d09d623e4fab0bf7f230016a217fa97868d4a65027852a2e2a3762964d9e4
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -244,7 +244,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3700517+02:00"
+    created: "2025-12-19T11:26:10.4861347+02:00"
     description: Eclipse Mosquitto
     digest: 4ac50ea4997b9d6b405527e9ef513a39fd461de75799280465a46e9a99d2ee23
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -258,7 +258,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3695306+02:00"
+    created: "2025-12-19T11:26:10.485613+02:00"
     description: Eclipse Mosquitto
     digest: 8a533d3588e0e5d4523ea39ae367b9188c63035b50cdb81713cde29b82866f69
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -272,7 +272,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3684703+02:00"
+    created: "2025-12-19T11:26:10.4840045+02:00"
     description: Eclipse Mosquitto
     digest: 79f0984ffe052f24bf67cf341932170b58383bf7ae3334dffdfef29e0867ce8e
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -286,7 +286,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.367918+02:00"
+    created: "2025-12-19T11:26:10.4834736+02:00"
     description: Eclipse Mosquitto
     digest: 34f99e10f5d601303144a5f739e7443f52a9528c0f8481a56fb84c2bc32aeb8d
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -300,7 +300,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3673604+02:00"
+    created: "2025-12-19T11:26:10.4829428+02:00"
     description: Eclipse Mosquitto
     digest: 4b325cb185f0cae15b887b0abd9022fb15bf37d5c06658ffc38b407905e991c7
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -314,7 +314,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3668059+02:00"
+    created: "2025-12-19T11:26:10.4824103+02:00"
     description: Eclipse Mosquitto
     digest: 4397095fd1f40a41eebf8d703ac5a95917517e0f952fac4bca83ef675fe96514
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -328,7 +328,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3657152+02:00"
+    created: "2025-12-19T11:26:10.4818825+02:00"
     description: Eclipse Mosquitto
     digest: 907580d384c61cbf6221bb309afeac13b3aadbf2fef6286c2f17c832200dd73d
     icon: https://efundies.com/how-to-choose-an-mqtt-broker-mosquitto-vs-hivemq-vs-home-assistant/default.webp
@@ -343,7 +343,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3738591+02:00"
+    created: "2025-12-19T11:26:10.4877703+02:00"
     description: Non-relational document database.
     digest: ecff855c62bccd186d9b708ddc52e28b2154f6beb3489b474feba0d92bc227ba
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -357,7 +357,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3732993+02:00"
+    created: "2025-12-19T11:26:10.4872498+02:00"
     description: Non-relational document database.
     digest: 379aa50ef5561aeb8e45e19197ecae88c50f285ea15a21c371a4d226a43fcd53
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -371,7 +371,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3722097+02:00"
+    created: "2025-12-19T11:26:10.4867316+02:00"
     description: Non-relational document database.
     digest: 47916bb09a751ad292f6b4c76cf19ae9c17f44314e44516783008dd0dcf772e0
     icon: https://ubos.tech/wp-content/uploads/2022/06/mongodb_logo.png
@@ -386,7 +386,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3788034+02:00"
+    created: "2025-12-19T11:26:10.4920533+02:00"
     description: Relational database management system.
     digest: 2e9f98f3a2afb28e769e7e873dd98c8a237cbb7811017688229a876e2e743195
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -400,7 +400,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3782683+02:00"
+    created: "2025-12-19T11:26:10.4909885+02:00"
     description: Relational database management system.
     digest: 5a8d549b0b3e5482b72f604e1d3b605c211b1e7bb8a8fdaa1ed3b47d94a4cb67
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -414,7 +414,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3771117+02:00"
+    created: "2025-12-19T11:26:10.4904567+02:00"
     description: Relational database management system.
     digest: 105a3cd77ca8fe5432470ad4470a000bc024672c207b19613a5f96e0b4248e68
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -428,7 +428,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3765914+02:00"
+    created: "2025-12-19T11:26:10.4899233+02:00"
     description: Relational database management system.
     digest: 2ddb1d70729e4723b8442eb961d71571e06f80aa0ccbc5e46c0ebee06b2013be
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -442,7 +442,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3760653+02:00"
+    created: "2025-12-19T11:26:10.4894041+02:00"
     description: Relational database management system.
     digest: 012c248e573e43f4c48a99489f2d1c842bbdb4c90d8b7115abee900daf6e57a9
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -456,7 +456,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3755184+02:00"
+    created: "2025-12-19T11:26:10.4888595+02:00"
     description: Relational database management system.
     digest: e8739e93324db9fa5027f70084b0d482ae76c51c4f0faf1e1c34a7831123d6a2
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -470,7 +470,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3749666+02:00"
+    created: "2025-12-19T11:26:10.4888595+02:00"
     description: Relational database management system.
     digest: cce982b65db8d92a80b5868b2caa7fbad679312ee31df58faf2e848885400d7e
     icon: https://upload.wikimedia.org/wikipedia/ru/d/d3/Mysql.png
@@ -485,7 +485,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3820814+02:00"
+    created: "2025-12-19T11:26:10.4941988+02:00"
     description: Back-end applications using  visual blocks.
     digest: 4e1251ee06a942ddeb25d8e49aac16d36e7eadd9ecf8ed9d0cc40608a42b9cc6
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -499,7 +499,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3815376+02:00"
+    created: "2025-12-19T11:26:10.4936466+02:00"
     description: Back-end applications using  visual blocks.
     digest: 8a915b0896afa7ba314acd4e5ce120bbe2f0428399712fccbde538461b0954b5
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -513,7 +513,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3804148+02:00"
+    created: "2025-12-19T11:26:10.4931065+02:00"
     description: Back-end applications using  visual blocks.
     digest: 4ad244c7a133e7b48cb387d8b681fad24f44845836a5593400ed996b313b7df7
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -527,7 +527,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3793628+02:00"
+    created: "2025-12-19T11:26:10.4925755+02:00"
     description: Back-end applications using  visual blocks.
     digest: 2553bcb48d0727f9a826028cb7152c38509372d270ebb1166db958ce26500561
     icon: https://ubos.tech/wp-content/uploads/2023/11/20200612144414_Node-Red-official-logo.webp
@@ -542,7 +542,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3868696+02:00"
+    created: "2025-12-19T11:26:10.4983005+02:00"
     description: Object-relational database system.
     digest: a673943e433868220b6d6452172f7e4ac0b40134cae17523536dde4a27b0f49f
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -556,7 +556,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3863394+02:00"
+    created: "2025-12-19T11:26:10.497288+02:00"
     description: Object-relational database system.
     digest: ecc7cd43cbcdec9d00f2da306c877646e0c42d264193480f53f16d36d907fa02
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -570,7 +570,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.385809+02:00"
+    created: "2025-12-19T11:26:10.497288+02:00"
     description: Object-relational database system.
     digest: 84c790e1f9085cb9cd5ffe712e73db017640448d1ee67dca4daab710fb2d676d
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -584,7 +584,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3852804+02:00"
+    created: "2025-12-19T11:26:10.4962784+02:00"
     description: Object-relational database system.
     digest: 786cba21a9ede2a201d1464657f3f58ed47c275ffd7b13c4b2afa226e7547512
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -598,7 +598,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3847472+02:00"
+    created: "2025-12-19T11:26:10.4962784+02:00"
     description: Object-relational database system.
     digest: b8176a15f4a50b7f785189ee1057e5443a05237ef3bc6cadd36153bf092cda07
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -612,7 +612,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3842154+02:00"
+    created: "2025-12-19T11:26:10.495763+02:00"
     description: Object-relational database system.
     digest: 09ebb4a8a56aad58b5c2e48e8f25ddb6991ccfdb94714ef9cc77fa6f5503784e
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -626,7 +626,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3836653+02:00"
+    created: "2025-12-19T11:26:10.4947463+02:00"
     description: Object-relational database system.
     digest: cf713c1a488e60b37caae381cd5a152e40cbfe459c017d6db385a41c58218157
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -640,7 +640,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3826157+02:00"
+    created: "2025-12-19T11:26:10.4947463+02:00"
     description: Object-relational database system.
     digest: a0bc714547f600c6905ab363d506c913e2f6759dba6f85224cd6b48beb086c36
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -655,7 +655,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3879187+02:00"
+    created: "2025-12-19T11:26:10.4983005+02:00"
     description: Cloud  IDEs
     digest: 90a74385a546c35dbf94756b01a68c5fe09052c9cbe6d0864e576f77883674fc
     icon: https://ubos.tech/wp-content/uploads/2023/12/завантаження-scaled.webp
@@ -670,7 +670,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3916619+02:00"
+    created: "2025-12-19T11:26:10.5018197+02:00"
     description: UBOS UI - web user interface builder.
     digest: 5fa32fc9fcdc871c093c1610811479fa244d81c970b649219e61b50b045846e3
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -684,7 +684,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3911431+02:00"
+    created: "2025-12-19T11:26:10.5018197+02:00"
     description: UBOS UI - web user interface builder.
     digest: 131861b3b44d13bdc9ac9167c51469f4cb287346b1ec15da727c9a4e055c1f3c
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -698,7 +698,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3906087+02:00"
+    created: "2025-12-19T11:26:10.5008153+02:00"
     description: UBOS UI - web user interface builder.
     digest: b9cb029e9e1ec157fef5117f5962f718f827801682cd2d91032f7786a3265db2
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -712,7 +712,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3900835+02:00"
+    created: "2025-12-19T11:26:10.5008153+02:00"
     description: UBOS UI - web user interface builder.
     digest: 328f3951b64a7112f56f57e7d2ced48379ab092c3fda518923f787e4ca334df0
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -726,7 +726,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.3890446+02:00"
+    created: "2025-12-19T11:26:10.4992916+02:00"
     description: UBOS UI - web user interface builder.
     digest: cb0ac69bce203ce346a76f52562fec1d98bc70df76a95bb1a65c6f179c7e9b2b
     icon: https://ubos.tech/wp-content/uploads/2023/11/cbimage-1-jpg.webp
@@ -749,7 +749,7 @@ entries:
         - name: Default Image Source
           url: https://github.com/backstage/backstage
     apiVersion: v2
-    created: "2025-12-19T11:14:58.399639+02:00"
+    created: "2025-12-19T11:26:10.508328+02:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -783,7 +783,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.4006896+02:00"
+    created: "2025-12-19T11:26:10.5093306+02:00"
     description: Safe database schema change and version control for DevOps teams.
     digest: 3a49ddd374a484c3ac4868a08cc81974e73356146459faddc0b78be13a2b76d3
     icon: https://raw.githubusercontent.com/bytebase/bytebase.com/main/public/images/logo.svg
@@ -797,7 +797,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.4001557+02:00"
+    created: "2025-12-19T11:26:10.5093306+02:00"
     description: Safe database schema change and version control for DevOps teams.
     digest: dc84ae611ce0005f48ed56d7493fff77e08eae61dfc44c99b2abe9d9252aedd5
     icon: https://raw.githubusercontent.com/bytebase/bytebase.com/main/public/images/logo.svg
@@ -811,7 +811,7 @@ entries:
   chatwoot:
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4118648+02:00"
+    created: "2025-12-19T11:26:10.517009+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -850,7 +850,7 @@ entries:
   chatwoot-template:
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.6427372+02:00"
+    created: "2025-12-19T11:26:10.7287346+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -888,7 +888,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.6342106+02:00"
+    created: "2025-12-19T11:26:10.7217314+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -926,7 +926,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.6256818+02:00"
+    created: "2025-12-19T11:26:10.7137068+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -964,7 +964,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.6181793+02:00"
+    created: "2025-12-19T11:26:10.7061859+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1002,7 +1002,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.6096537+02:00"
+    created: "2025-12-19T11:26:10.6981439+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1040,7 +1040,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.6026539+02:00"
+    created: "2025-12-19T11:26:10.688913+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1078,7 +1078,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5951333+02:00"
+    created: "2025-12-19T11:26:10.6819281+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1116,7 +1116,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5876205+02:00"
+    created: "2025-12-19T11:26:10.674396+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1154,7 +1154,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5796112+02:00"
+    created: "2025-12-19T11:26:10.6677699+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1192,7 +1192,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5721144+02:00"
+    created: "2025-12-19T11:26:10.659748+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1230,7 +1230,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5635717+02:00"
+    created: "2025-12-19T11:26:10.6522383+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1268,7 +1268,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5550465+02:00"
+    created: "2025-12-19T11:26:10.6442796+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1306,7 +1306,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5439947+02:00"
+    created: "2025-12-19T11:26:10.6372293+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1344,7 +1344,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5354602+02:00"
+    created: "2025-12-19T11:26:10.6307087+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1382,7 +1382,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5259409+02:00"
+    created: "2025-12-19T11:26:10.6221485+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1420,7 +1420,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5179511+02:00"
+    created: "2025-12-19T11:26:10.6150699+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1458,7 +1458,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5098352+02:00"
+    created: "2025-12-19T11:26:10.6075391+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1496,7 +1496,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.5027734+02:00"
+    created: "2025-12-19T11:26:10.5995447+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1534,7 +1534,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4952521+02:00"
+    created: "2025-12-19T11:26:10.5920331+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1572,7 +1572,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4872515+02:00"
+    created: "2025-12-19T11:26:10.5838171+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1610,7 +1610,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4797528+02:00"
+    created: "2025-12-19T11:26:10.5754827+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1648,7 +1648,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.471702+02:00"
+    created: "2025-12-19T11:26:10.5694925+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1686,7 +1686,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4641752+02:00"
+    created: "2025-12-19T11:26:10.5603584+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1724,7 +1724,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4561756+02:00"
+    created: "2025-12-19T11:26:10.5531736+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1762,7 +1762,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4480376+02:00"
+    created: "2025-12-19T11:26:10.54612+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1800,7 +1800,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4385152+02:00"
+    created: "2025-12-19T11:26:10.5391172+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1838,7 +1838,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.4300017+02:00"
+    created: "2025-12-19T11:26:10.5316126+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1876,7 +1876,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: v4.1.0
-    created: "2025-12-19T11:14:58.419278+02:00"
+    created: "2025-12-19T11:26:10.5234154+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1916,7 +1916,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6437625+02:00"
+    created: "2025-12-19T11:26:10.729738+02:00"
     description: Database client DBeaver for SQL DBs
     digest: af79b8f3fff13dcf3542267ad9cba804bad62094cbc26e09c6495d871bd57197
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -1931,7 +1931,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6472767+02:00"
+    created: "2025-12-19T11:26:10.7333567+02:00"
     description: Database client DBeaver for SQL DBs
     digest: d3c270302c5602351c847125a51b0ce6d401ded100699f5e40f5f136af21df7b
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -1945,7 +1945,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6472767+02:00"
+    created: "2025-12-19T11:26:10.732287+02:00"
     description: Database client DBeaver for SQL DBs
     digest: 1c0fe558fd2dbd2bedf49b3ddbbaaaf3c159fd4dc2a2d07035d435ed2a9d6682
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -1959,7 +1959,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.646287+02:00"
+    created: "2025-12-19T11:26:10.732287+02:00"
     description: Database client DBeaver for SQL DBs
     digest: 0a3a43228c13d18436bf6c039dd54a22cff20166bec1612ac21073560373417b
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -1973,7 +1973,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6452683+02:00"
+    created: "2025-12-19T11:26:10.732287+02:00"
     description: Database client DBeaver for SQL DBs
     digest: a97d551cb5340c2a7a16f16a1e5f501fb65cf02b06350ac763e5f196d51aa101
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -1987,7 +1987,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6437625+02:00"
+    created: "2025-12-19T11:26:10.7307376+02:00"
     description: Database client DBeaver for SQL DBs
     digest: a9597ed6b7188daed36b71ee0f9504392b174e05d429ca5fab9ea377a7d5cc76
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -2001,7 +2001,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6437625+02:00"
+    created: "2025-12-19T11:26:10.729738+02:00"
     description: Database client DBeaver for SQL DBs
     digest: bcdb9933160ad2f82909b732acf296d31f5d2571d27f360916fd5aa9c6e3a24f
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -2015,7 +2015,7 @@ entries:
   - annotations:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
-    created: "2025-12-19T11:14:58.6437625+02:00"
+    created: "2025-12-19T11:26:10.729738+02:00"
     description: Database client DBeaver for SQL DBs
     digest: 279ca4175ffeec98340b05f62c8b55bb813f92d6df5f76f0823e47b417504fbe
     icon: https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg
@@ -2031,7 +2031,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-19T11:14:58.6482779+02:00"
+    created: "2025-12-19T11:26:10.7333567+02:00"
     description: A Helm chart for Kubernetes
     digest: b1fd8172fbbc0e67f2772aba01454e40db3b664365dc06f96e5dbe65c4491809
     icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDta4R2pZ4MTBbP-yxx2dUNR3I4thSKrIoSQ&s
@@ -2047,7 +2047,7 @@ entries:
       repository: https://jeka95.github.io/ubos-helms/
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-19T11:14:58.6472767+02:00"
+    created: "2025-12-19T11:26:10.7333567+02:00"
     description: A Helm chart for Kubernetes
     digest: 9c78e81833c0d460654fa2c183563b6cc20911c6277f3ce5dafcf5b0daf11795
     icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDta4R2pZ4MTBbP-yxx2dUNR3I4thSKrIoSQ&s
@@ -2062,7 +2062,7 @@ entries:
   litellm-helm:
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.7262338+02:00"
+    created: "2025-12-19T11:26:10.8089183+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2081,7 +2081,7 @@ entries:
     version: 0.3.7
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.7157027+02:00"
+    created: "2025-12-19T11:26:10.7994252+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2100,7 +2100,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.7051797+02:00"
+    created: "2025-12-19T11:26:10.7888919+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2119,7 +2119,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.6966904+02:00"
+    created: "2025-12-19T11:26:10.7783801+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2138,7 +2138,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.6871639+02:00"
+    created: "2025-12-19T11:26:10.7698605+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2157,7 +2157,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.6780063+02:00"
+    created: "2025-12-19T11:26:10.760354+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2176,7 +2176,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.6678367+02:00"
+    created: "2025-12-19T11:26:10.7523378+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2195,7 +2195,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: v1.50.2
-    created: "2025-12-19T11:14:58.6573269+02:00"
+    created: "2025-12-19T11:26:10.7428238+02:00"
     dependencies:
     - condition: db.deployStandalone
       name: postgresql
@@ -2226,7 +2226,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.22.1
-    created: "2025-12-19T11:14:58.7472954+02:00"
+    created: "2025-12-19T11:26:10.8305936+02:00"
     dependencies:
     - condition: minio.enabled
       name: minio
@@ -2277,7 +2277,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.22.1
-    created: "2025-12-19T11:14:58.7352489+02:00"
+    created: "2025-12-19T11:26:10.8209186+02:00"
     dependencies:
     - condition: minio.enabled
       name: minio
@@ -2318,7 +2318,45 @@ entries:
   opik:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2025-12-19T11:14:58.9963187+02:00"
+    created: "2025-12-19T11:26:11.0958954+02:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.1.9
+    - condition: zookeeper.enabled
+      name: zookeeper
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.12.1
+    - condition: redis.enabled
+      name: redis
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 18.19.2
+    - condition: minio.enabled
+      name: minio
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 15.0.7
+    - condition: clickhouse.enabled
+      name: altinity-clickhouse-operator
+      repository: https://docs.altinity.com/clickhouse-operator/
+      version: 0.23.7
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.x.x
+    description: A Helm chart for Comet Opik
+    digest: 2052d430e004d488b170889e79f9b05ecb28eef51abc94f0d3626a3fd5e282ce
+    icon: https://www.comet.com/site/favicon-32x32.png
+    maintainers:
+    - email: liyak@comet.com
+      name: Liya Katz
+    name: opik
+    type: application
+    urls:
+    - https://jeka95.github.io/ubos-helms/opik-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: 0.2.1
+    created: "2025-12-19T11:26:11.080786+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2356,7 +2394,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2025-12-19T11:14:58.9798041+02:00"
+    created: "2025-12-19T11:26:11.0655552+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2394,7 +2432,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2025-12-19T11:14:58.9627644+02:00"
+    created: "2025-12-19T11:26:11.0495079+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2432,7 +2470,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2025-12-19T11:14:58.946229+02:00"
+    created: "2025-12-19T11:26:11.0329723+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2470,7 +2508,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-12-19T11:14:58.9301946+02:00"
+    created: "2025-12-19T11:26:11.0164243+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2508,7 +2546,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2025-12-19T11:14:58.9136451+02:00"
+    created: "2025-12-19T11:26:11.0003788+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2546,7 +2584,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2025-12-19T11:14:58.8972509+02:00"
+    created: "2025-12-19T11:26:10.9838409+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2584,7 +2622,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2025-12-19T11:14:58.8802156+02:00"
+    created: "2025-12-19T11:26:10.9678046+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2622,7 +2660,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2025-12-19T11:14:58.8647001+02:00"
+    created: "2025-12-19T11:26:10.951266+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2660,7 +2698,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2025-12-19T11:14:58.8486536+02:00"
+    created: "2025-12-19T11:26:10.9351275+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2698,7 +2736,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2025-12-19T11:14:58.8325525+02:00"
+    created: "2025-12-19T11:26:10.917555+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2736,7 +2774,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2025-12-19T11:14:58.8165185+02:00"
+    created: "2025-12-19T11:26:10.9000452+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2774,7 +2812,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-12-19T11:14:58.7999928+02:00"
+    created: "2025-12-19T11:26:10.8840187+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2812,7 +2850,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-12-19T11:14:58.7816229+02:00"
+    created: "2025-12-19T11:26:10.8659707+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2850,7 +2888,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-12-19T11:14:58.7639819+02:00"
+    created: "2025-12-19T11:26:10.8475255+02:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -2889,7 +2927,7 @@ entries:
   swagger-ui:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0061254+02:00"
+    created: "2025-12-19T11:26:11.1054242+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: b5fe2700bfe1a2e0fafcc85ce2b01153b460e9aa98895e0289e11238948dfdcd
     name: swagger-ui
@@ -2899,7 +2937,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0051255+02:00"
+    created: "2025-12-19T11:26:11.1054242+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 6ad0617dea05266249a9a92af1ff8755dbe65dba7de22e18b4c7603c9cea7482
     name: swagger-ui
@@ -2909,7 +2947,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0051255+02:00"
+    created: "2025-12-19T11:26:11.1038971+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 729a2f44f533a325f0e2c1e7c20634b4afc3efb06d700212c32b0c64f9254bc0
     name: swagger-ui
@@ -2919,7 +2957,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0051255+02:00"
+    created: "2025-12-19T11:26:11.1038971+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 3fafee5e0b76562a977df7d89438c11dab3f998c0af6506ccba210b503537885
     name: swagger-ui
@@ -2929,7 +2967,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.004126+02:00"
+    created: "2025-12-19T11:26:11.1038971+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: a6c3c1421bf97ecd445dac553bee976136e258b581830adcf1d1e34a4c8ad289
     name: swagger-ui
@@ -2939,7 +2977,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.004126+02:00"
+    created: "2025-12-19T11:26:11.1028936+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 1e9a60bf20b8aa83ef1364d40db4aebc18e4c913a3353c35ebb8b39f92ae39f4
     name: swagger-ui
@@ -2949,7 +2987,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0031347+02:00"
+    created: "2025-12-19T11:26:11.1019017+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 3ce9b13b989c373cd5669bbce7a2c5f33302f23f5e442104e76ff1b8631b9db3
     name: swagger-ui
@@ -2959,7 +2997,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0031347+02:00"
+    created: "2025-12-19T11:26:11.1009719+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: b9b7ab6b4c31e6d37827a2636980592661a04be77ae44964544cc4e3fbd7a594
     name: swagger-ui
@@ -2969,7 +3007,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0031347+02:00"
+    created: "2025-12-19T11:26:11.1009719+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: dc1e0e0a5a5805c3fa1e548af34531cbcfd89b12fc84ca95778f23a8f2fbba27
     name: swagger-ui
@@ -2979,7 +3017,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0021214+02:00"
+    created: "2025-12-19T11:26:11.1009719+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 23cedad1f579c41928860dd506f3f390389564a994dcf823b14f24b1a8102c66
     name: swagger-ui
@@ -2989,7 +3027,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:59.0008401+02:00"
+    created: "2025-12-19T11:26:11.0998946+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: b3ceca2757533c685763d1e0e38f0d5d559d8bd19e55fac3c23dc1221e7fb92d
     name: swagger-ui
@@ -2999,7 +3037,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.999846+02:00"
+    created: "2025-12-19T11:26:11.0998946+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: c3dd1cdd4509028e18b0ae8faad4c34a32b3664680029d54345028a8f5f600a6
     name: swagger-ui
@@ -3009,7 +3047,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.999846+02:00"
+    created: "2025-12-19T11:26:11.0988962+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: a525b6d9f8a196db5797f229583df2acf1e3b9dbe8b99fff78a998db7f8c6082
     name: swagger-ui
@@ -3019,7 +3057,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.9988518+02:00"
+    created: "2025-12-19T11:26:11.0988962+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 77db3be1a628a99690fd7d69d468eb0e44fa1b18de2b9a1ba9dc558fbbcc9873
     name: swagger-ui
@@ -3029,7 +3067,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.9988518+02:00"
+    created: "2025-12-19T11:26:11.0988962+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 0209ba0701f898637de0d2340e29c881093ed22ff1451a19d5aba30249eebd10
     name: swagger-ui
@@ -3039,7 +3077,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.9988518+02:00"
+    created: "2025-12-19T11:26:11.097896+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 4f59bac9b5789336a48c35acf47d4b44fb19526bb4773a17304c5878b5df12a0
     name: swagger-ui
@@ -3049,7 +3087,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.9978319+02:00"
+    created: "2025-12-19T11:26:11.097896+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: 5001f597a2d15ea5a08f6fb5a3a7ead1a0ef478a6c3aad7911aea6210fd8b0c7
     name: swagger-ui
@@ -3059,7 +3097,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-19T11:14:58.9978319+02:00"
+    created: "2025-12-19T11:26:11.096893+02:00"
     description: A Helm chart to deploy a Swagger UI on Kubernetes
     digest: bab5f8f48962c672a2d3e072494175743f99f8d35084ada85451a177297882a0
     name: swagger-ui
@@ -3069,7 +3107,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-12-19T11:14:58.9963187+02:00"
+    created: "2025-12-19T11:26:11.096893+02:00"
     description: A simple Swagger UI deployment with multiple APIs
     digest: 960b57fa57a9f0a31677b617c36f8c223d88d8430690a0a7254a663afeb2234a
     name: swagger-ui
@@ -3078,7 +3116,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-12-19T11:14:58.9963187+02:00"
+    created: "2025-12-19T11:26:11.096893+02:00"
     description: A simple Swagger UI deployment with multiple APIs
     digest: 8fa19dd22cf4bc22d47fc539ebe15b82cc37d83eac41faffe38b63dd74399452
     name: swagger-ui
@@ -3087,7 +3125,7 @@ entries:
     version: 0.1.0
   tooljet:
   - apiVersion: v2
-    created: "2025-12-19T11:14:59.0203132+02:00"
+    created: "2025-12-19T11:26:11.1189699+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3115,7 +3153,7 @@ entries:
     - https://jeka95.github.io/ubos-helms/tooljet-3.0.7.tgz
     version: 3.0.7
   - apiVersion: v2
-    created: "2025-12-19T11:14:59.0132006+02:00"
+    created: "2025-12-19T11:26:11.1124502+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3142,4 +3180,4 @@ entries:
     urls:
     - https://jeka95.github.io/ubos-helms/tooljet-3.0.6.tgz
     version: 3.0.6
-generated: "2025-12-19T11:14:58.3559079+02:00"
+generated: "2025-12-19T11:26:10.4742659+02:00"
